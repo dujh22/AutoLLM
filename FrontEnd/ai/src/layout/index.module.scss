@@ -1,0 +1,28 @@
+.logo {
+  height: 50px;
+  line-height: 50px;
+  color: #fff;
+  font-size: 24px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .title {
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .headerLeft {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.menu {
+  margin-top: 12px;
+}

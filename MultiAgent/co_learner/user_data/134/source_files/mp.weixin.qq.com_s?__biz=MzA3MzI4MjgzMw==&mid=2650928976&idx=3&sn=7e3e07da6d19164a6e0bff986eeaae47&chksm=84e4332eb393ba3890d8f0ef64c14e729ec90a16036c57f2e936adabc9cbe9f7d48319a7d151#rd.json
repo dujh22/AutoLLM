@@ -1,0 +1,25 @@
+{
+    "link": "http://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2650928976&idx=3&sn=7e3e07da6d19164a6e0bff986eeaae47&chksm=84e4332eb393ba3890d8f0ef64c14e729ec90a16036c57f2e936adabc9cbe9f7d48319a7d151#rd",
+    "title": "一文看尽LLM对齐技术：RLHF、RLAIF、PPO、DPO……",
+    "summary": " Salesforce发布了一份37页的综述报告，总结了现有的对齐大型语言模型（LLM）与人类偏好的各种技术。报告涵盖奖励模型、反馈、强化学习（RL）和优化四大主题，详细分析了相关研究文献。其中，基于人类反馈的强化学习（RLHF）是一种重要的对齐方法，用于确保LLM的输出与人类价值观一致。OpenAI的InstructGPT和Anthropic的RLHF是该领域的代表作。此外，报告还探讨了RLAIF（基于人工智能反馈的强化学习）、直接人类偏好优化等方法，并列出了相关研究论文和评估指标，为未来对齐技术的研究指明了方向。",
+    "user_summary": " Salesforce发布了一份37页的综述报告，总结了现有的对齐大型语言模型（LLM）与人类偏好的各种技术。报告涵盖奖励模型、反馈、强化学习（RL）和优化四大主题，详细分析了相关研究文献。其中，基于人类反馈的强化学习（RLHF）是一种重要的对齐方法，用于确保LLM的输出与人类价值观一致。OpenAI的InstructGPT和Anthropic的RLHF是该领域的代表作。此外，报告还探讨了RLAIF（基于人工智能反馈的强化学习）、直接人类偏好优化等方法，并列出了相关研究论文和评估指标，为未来对齐技术的研究指明了方向。",
+    "keywords": [
+        "Salesforce",
+        "LLM",
+        "人类偏好",
+        "对齐",
+        "报告",
+        "奖励模型",
+        "反馈",
+        "强化学习",
+        "RLHF",
+        "InstructGPT",
+        "Anthropic",
+        "RLAIF",
+        "人工智能反馈",
+        "优化",
+        "研究论文",
+        "评估指标"
+    ],
+    "timestamp": "2024-10-27T07:21:24.466982"
+}

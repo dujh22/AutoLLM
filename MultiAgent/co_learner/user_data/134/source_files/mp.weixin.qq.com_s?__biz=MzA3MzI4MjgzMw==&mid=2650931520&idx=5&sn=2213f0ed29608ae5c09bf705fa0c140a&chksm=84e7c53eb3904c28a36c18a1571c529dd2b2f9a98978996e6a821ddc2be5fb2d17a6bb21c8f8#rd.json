@@ -1,0 +1,27 @@
+{
+    "link": "http://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2650931520&idx=5&sn=2213f0ed29608ae5c09bf705fa0c140a&chksm=84e7c53eb3904c28a36c18a1571c529dd2b2f9a98978996e6a821ddc2be5fb2d17a6bb21c8f8#rd",
+    "title": "ECCV 2024 | 引入DiT的原生3D通用框架，适用任意神经场、秒级生成",
+    "summary": "南洋理工大学、上海AI Lab和北京大学的研究者提出了一种新的3D生成框架，称为Latent Neural Fields 3D Diffusion (LN3Diff)。该框架解决了现有3D生成模型可拓展性差、训练效率低和泛化性不足的问题，采用3D VAE和3D-DiT的两阶段方法，实现了高效、高质量的3D资产生成。LN3Diff在Objaverse数据集上进行大规模训练，并在多个基准测试中取得优异成绩，具有更快的推理速度。论文和代码已开源。",
+    "user_summary": "南洋理工大学、上海AI Lab和北京大学的研究者提出了一种新的3D生成框架，称为Latent Neural Fields 3D Diffusion (LN3Diff)。该框架解决了现有3D生成模型可拓展性差、训练效率低和泛化性不足的问题，采用3D VAE和3D-DiT的两阶段方法，实现了高效、高质量的3D资产生成。LN3Diff在Objaverse数据集上进行大规模训练，并在多个基准测试中取得优异成绩，具有更快的推理速度。论文和代码已开源。",
+    "keywords": [
+        "南洋理工大学上海AI",
+        "Lab北京大学",
+        "LN3Diff",
+        "3D生成框架",
+        "3D",
+        "VAE",
+        "3D-DiT",
+        "高效",
+        "高质量",
+        "3D资产",
+        "生成",
+        "Objaverse",
+        "数据集",
+        "基准",
+        "测试",
+        "论文",
+        "代码",
+        "开源"
+    ],
+    "timestamp": "2024-10-27T07:17:15.245758"
+}

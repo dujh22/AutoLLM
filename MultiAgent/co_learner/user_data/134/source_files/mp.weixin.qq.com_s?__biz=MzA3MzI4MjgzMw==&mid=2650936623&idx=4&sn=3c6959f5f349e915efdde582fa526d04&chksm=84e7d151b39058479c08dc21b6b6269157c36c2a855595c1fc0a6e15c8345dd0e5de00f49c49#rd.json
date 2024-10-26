@@ -1,0 +1,32 @@
+{
+    "link": "http://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2650936623&idx=4&sn=3c6959f5f349e915efdde582fa526d04&chksm=84e7d151b39058479c08dc21b6b6269157c36c2a855595c1fc0a6e15c8345dd0e5de00f49c49#rd",
+    "title": "端到端优化所有能力，字节跳动提出强化学习LLM Agent框架AGILE",
+    "summary": "字节跳动的研究人员提出了一种名为AGILE的强化学习框架，用于构建具有多种能力的大语言模型（LLM）Agent，包括记忆、工具使用、规划、反思和与环境交互等。AGILE允许Agent在不自信时向人类专家求助，提高了处理复杂问题的准确性和泛化能力。在ProductQA和MedMCQA任务上，经过RL训练的AGILE Agent在性能上超越了GPT-4 Agent。该框架为LLM Agent的统一优化提供了一个端到端的解决方案。",
+    "user_summary": "字节跳动的研究人员提出了一种名为AGILE的强化学习框架，用于构建具有多种能力的大语言模型（LLM）Agent，包括记忆、工具使用、规划、反思和与环境交互等。AGILE允许Agent在不自信时向人类专家求助，提高了处理复杂问题的准确性和泛化能力。在ProductQA和MedMCQA任务上，经过RL训练的AGILE Agent在性能上超越了GPT-4 Agent。该框架为LLM Agent的统一优化提供了一个端到端的解决方案。",
+    "keywords": [
+        "字节跳动",
+        "AGILE",
+        "强化学习",
+        "大语言模型",
+        "LLM",
+        "Agent",
+        "记忆",
+        "工具使用",
+        "规划",
+        "反思",
+        "环境交互",
+        "人类专家",
+        "求助",
+        "复杂问题",
+        "准确性",
+        "泛化能力",
+        "ProductQA",
+        "MedMCQA",
+        "GPT-4",
+        "Agent",
+        "统一优化",
+        "端到端",
+        "解决方案"
+    ],
+    "timestamp": "2024-10-27T07:10:35.753550"
+}

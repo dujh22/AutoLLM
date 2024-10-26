@@ -1,0 +1,29 @@
+{
+    "link": "http://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2650939511&idx=3&sn=dabddded9914c9219df01f93576b1930&chksm=84e7e409b3906d1fb9a8aaa0c9a15728843ee54a848039841ff183967c9ce9d6105dd7c55d45#rd",
+    "title": "又快又准，即插即用！清华8比特量化Attention，两倍加速于FlashAttention2，各端到端任务均不掉点！",
+    "summary": "清华大学陈键飞团队提出了SageAttention，这是一种8位（INT8）注意力机制，旨在加速大模型中的注意力运算，解决长序列处理中的效率瓶颈。SageAttention在保持端到端精度的同时，实现了比现有最佳方法FlashAttention2和xformers快2到2.7倍的推理加速。该方法通过对矩阵K进行平滑处理，对Q和K进行分块INT8量化，以及对P和V使用FP16矩阵乘法累加器来提高效率。实验结果显示，SageAttention在不同模型和任务上都表现出高效率和无精度损失的性能。",
+    "user_summary": "清华大学陈键飞团队提出了SageAttention，这是一种8位（INT8）注意力机制，旨在加速大模型中的注意力运算，解决长序列处理中的效率瓶颈。SageAttention在保持端到端精度的同时，实现了比现有最佳方法FlashAttention2和xformers快2到2.7倍的推理加速。该方法通过对矩阵K进行平滑处理，对Q和K进行分块INT8量化，以及对P和V使用FP16矩阵乘法累加器来提高效率。实验结果显示，SageAttention在不同模型和任务上都表现出高效率和无精度损失的性能。",
+    "keywords": [
+        "SageAttention",
+        "注意力机制",
+        "INT8",
+        "速度",
+        "加速",
+        "大模型",
+        "长序列",
+        "处理",
+        "效率",
+        "瓶颈",
+        "端到端",
+        "精度",
+        "FlashAttention2",
+        "xformers",
+        "实验",
+        "结果",
+        "高效率",
+        "无精度损失",
+        "模型",
+        "任务"
+    ],
+    "timestamp": "2024-10-27T07:07:24.242849"
+}

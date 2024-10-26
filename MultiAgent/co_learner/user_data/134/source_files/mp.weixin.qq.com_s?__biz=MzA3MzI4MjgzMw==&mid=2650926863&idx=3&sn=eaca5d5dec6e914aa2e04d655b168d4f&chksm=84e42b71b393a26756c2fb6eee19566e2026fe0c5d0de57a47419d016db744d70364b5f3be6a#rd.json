@@ -1,0 +1,28 @@
+{
+    "link": "http://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2650926863&idx=3&sn=eaca5d5dec6e914aa2e04d655b168d4f&chksm=84e42b71b393a26756c2fb6eee19566e2026fe0c5d0de57a47419d016db744d70364b5f3be6a#rd",
+    "title": "小模型卷起来了：Mistral联合英伟达开源12B小模型，128k上下文",
+    "summary": "本文介绍了AI巨头OpenAI和Mistral AI发布的小型AI模型，这些模型正在成为AI领域的新战场。OpenAI推出了GPT-4o mini，作为GPT-3.5的替代品，提供在ChatGPT上的免费服务，其API价格大幅度降低，比之前模型便宜一个数量级。而Mistral AI与NVIDIA合作发布了Mistral NeMo，这是一个120亿参数的模型，拥有SOTA级别的推理能力和世界知识，尤其擅长多语言应用。Mistral NeMo的压缩效率和指令微调能力也得到了显著提升，可在多种语言和任务中表现出色。这些小型模型的优势在于更低的计算成本、便捷的训练和部署，适合计算资源受限和数据安全要求高的场景。这一发展预示着AI技术正向更高效、可本地部署的方向发展，为小型企业提供了利用AI能力的新机会。",
+    "user_summary": "本文介绍了AI巨头OpenAI和Mistral AI发布的小型AI模型，这些模型正在成为AI领域的新战场。OpenAI推出了GPT-4o mini，作为GPT-3.5的替代品，提供在ChatGPT上的免费服务，其API价格大幅度降低，比之前模型便宜一个数量级。而Mistral AI与NVIDIA合作发布了Mistral NeMo，这是一个120亿参数的模型，拥有SOTA级别的推理能力和世界知识，尤其擅长多语言应用。Mistral NeMo的压缩效率和指令微调能力也得到了显著提升，可在多种语言和任务中表现出色。这些小型模型的优势在于更低的计算成本、便捷的训练和部署，适合计算资源受限和数据安全要求高的场景。这一发展预示着AI技术正向更高效、可本地部署的方向发展，为小型企业提供了利用AI能力的新机会。",
+    "keywords": [
+        "OpenAI",
+        "GPT-4o",
+        "mini",
+        "GPT-3.5",
+        "ChatGPT",
+        "API价格降低",
+        "Mistral",
+        "AI",
+        "NVIDIA",
+        "Mistral",
+        "NeMo",
+        "SOTA推理能力",
+        "多语言应用",
+        "压缩效率",
+        "指令微调",
+        "计算成本",
+        "本地部署",
+        "小型企业",
+        "AI技术发展"
+    ],
+    "timestamp": "2024-10-27T07:24:54.522898"
+}

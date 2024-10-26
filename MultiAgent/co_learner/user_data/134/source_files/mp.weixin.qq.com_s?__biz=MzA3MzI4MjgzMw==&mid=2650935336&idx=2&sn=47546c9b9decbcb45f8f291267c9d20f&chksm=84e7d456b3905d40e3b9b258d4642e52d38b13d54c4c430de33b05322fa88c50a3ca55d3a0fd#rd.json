@@ -1,0 +1,33 @@
+{
+    "link": "http://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2650935336&idx=2&sn=47546c9b9decbcb45f8f291267c9d20f&chksm=84e7d456b3905d40e3b9b258d4642e52d38b13d54c4c430de33b05322fa88c50a3ca55d3a0fd#rd",
+    "title": "强化学习让大模型自动纠错，数学、编程性能暴涨，DeepMind新作",
+    "summary": "Google DeepMind的研究者开发了一种名为SCoRe（Self-Correction via Reinforcement Learning）的方法，使大语言模型（LLM）能够自我纠正错误，无需依赖外部反馈或额外模型。SCoRe通过强化学习让模型在自生成的数据上训练，以实现自我纠正能力。这种方法在MATH推理问题上提高了15.6%的准确性，在HumanEval编码问题上提高了9.1%的性能。SCoRe分为两个阶段，首先训练模型初始化以防止崩溃，然后进行带有奖励的多轮强化学习。实验结果表明，SCoRe在数学和代码生成任务上表现出显著的改进。",
+    "user_summary": "Google DeepMind的研究者开发了一种名为SCoRe（Self-Correction via Reinforcement Learning）的方法，使大语言模型（LLM）能够自我纠正错误，无需依赖外部反馈或额外模型。SCoRe通过强化学习让模型在自生成的数据上训练，以实现自我纠正能力。这种方法在MATH推理问题上提高了15.6%的准确性，在HumanEval编码问题上提高了9.1%的性能。SCoRe分为两个阶段，首先训练模型初始化以防止崩溃，然后进行带有奖励的多轮强化学习。实验结果表明，SCoRe在数学和代码生成任务上表现出显著的改进。",
+    "keywords": [
+        "Google",
+        "DeepMind",
+        "SCoRe",
+        "自我纠正",
+        "强化学习",
+        "大语言模型",
+        "LLM",
+        "外部反馈",
+        "额外模型",
+        "MATH",
+        "推理问题",
+        "HumanEval",
+        "编码问题",
+        "准确性",
+        "性能",
+        "训练",
+        "模型初始化",
+        "奖励",
+        "强化学习",
+        "实验结果",
+        "数学",
+        "代码生成",
+        "任务",
+        "改进"
+    ],
+    "timestamp": "2024-10-27T07:11:55.350508"
+}

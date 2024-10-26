@@ -1,0 +1,21 @@
+{
+    "link": "http://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2650940508&idx=1&sn=1483718d500bc76557d5397827638c7f&chksm=84e7e022b3906934994976f420e96f5aaf6a7d87bd799d96b354e167253833e2f445186d5cad#rd",
+    "title": "UCL博士生创业一年，造出最强AI「ML工程师」，OpenAI盖戳认证",
+    "summary": "OpenAI推出新基准测试MLE-bench，评估大型语言模型在机器学习工程中的表现。研究发现，GPT-4o与AIDE框架的组合在75个Kaggle竞赛中的平均奖牌数量优于其他开源框架。当模型升级到OpenAI的o1-preview时，表现翻倍，约16.9%的比赛中达到Kaggle铜牌以上水平。AIDE是一个机器学习代码生成Agent，专注于代码优化，其设计范式有助于提升大模型的能力。AIDE在处理机器学习任务时展现出优于通用框架的能力，特别是在代码优化方面。WecoAI的CEO蒋铮尧表示，一个好的Agent框架对前沿模型的能力提升至关重要。",
+    "user_summary": "OpenAI推出新基准测试MLE-bench，评估大型语言模型在机器学习工程中的表现。研究发现，GPT-4o与AIDE框架的组合在75个Kaggle竞赛中的平均奖牌数量优于其他开源框架。当模型升级到OpenAI的o1-preview时，表现翻倍，约16.9%的比赛中达到Kaggle铜牌以上水平。AIDE是一个机器学习代码生成Agent，专注于代码优化，其设计范式有助于提升大模型的能力。AIDE在处理机器学习任务时展现出优于通用框架的能力，特别是在代码优化方面。WecoAI的CEO蒋铮尧表示，一个好的Agent框架对前沿模型的能力提升至关重要。",
+    "keywords": [
+        "OpenAI",
+        "MLE-bench",
+        "GPT-4o",
+        "AIDE",
+        "Kaggle",
+        "基准测试",
+        "机器学习工程",
+        "代码优化",
+        "铜牌",
+        "Agent框架",
+        "蒋铮尧",
+        "WecoAI"
+    ],
+    "timestamp": "2024-10-27T07:06:01.726720"
+}

@@ -1,0 +1,23 @@
+{
+    "link": "http://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2650926594&idx=4&sn=8c1d2e56a5e24744416819dffe8b64e1&chksm=84e42a7cb393a36ac70a36c42a3bb2ffd3865b842dfd5a0d7c9d757d5c6eabc15bfefac3239a#rd",
+    "title": "Mistral AI两连发：7B数学推理专用、Mamba2架构代码大模型",
+    "summary": "法国AI公司Mistral AI发布了两个大模型：Mathstral专注于数学推理和科学问题，能在高级数学问题上进行复杂逻辑推理，性能优秀；Codestral Mamba是用于代码生成的模型，基于Mamba架构，具有线性时间推理优势，适合处理长序列输入。Mathstral在MATH数据集上达到56.6%的通过率，优于其他模型，而Codestral Mamba在HumanEval基准测试中表现优于CodeLlama和CodeGemma。这两个模型都在HuggingFace上开源，并可在Mistral的API平台上免费试用。",
+    "user_summary": "法国AI公司Mistral AI发布了两个大模型：Mathstral专注于数学推理和科学问题，能在高级数学问题上进行复杂逻辑推理，性能优秀；Codestral Mamba是用于代码生成的模型，基于Mamba架构，具有线性时间推理优势，适合处理长序列输入。Mathstral在MATH数据集上达到56.6%的通过率，优于其他模型，而Codestral Mamba在HumanEval基准测试中表现优于CodeLlama和CodeGemma。这两个模型都在HuggingFace上开源，并可在Mistral的API平台上免费试用。",
+    "keywords": [
+        "Mistral",
+        "AI",
+        "Mathstral",
+        "Codestral",
+        "Mamba",
+        "数学推理",
+        "科学问题",
+        "代码生成",
+        "MATH数据集",
+        "HumanEval",
+        "基准测试",
+        "HuggingFace",
+        "API平台",
+        "免费试用"
+    ],
+    "timestamp": "2024-10-27T07:25:25.837270"
+}

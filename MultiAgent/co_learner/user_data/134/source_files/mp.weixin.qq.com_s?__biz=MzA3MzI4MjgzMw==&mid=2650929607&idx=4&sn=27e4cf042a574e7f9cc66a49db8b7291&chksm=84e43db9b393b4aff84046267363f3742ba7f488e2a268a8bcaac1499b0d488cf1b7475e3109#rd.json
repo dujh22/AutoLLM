@@ -1,0 +1,22 @@
+{
+    "link": "http://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2650929607&idx=4&sn=27e4cf042a574e7f9cc66a49db8b7291&chksm=84e43db9b393b4aff84046267363f3742ba7f488e2a268a8bcaac1499b0d488cf1b7475e3109#rd",
+    "title": "Karpathy观点惹争议：RLHF不是真正的强化学习，谷歌、Meta下场反对",
+    "summary": "AI 大牛 Karpathy 认为基于人类反馈的强化学习（RLHF）只是勉强算得上强化学习（RL）。RLHF 是训练大语言模型的阶段之一，但与真正的 RL（如 AlphaGo 使用的）不同，RLHF 不会得到广泛认可。RLHF 的问题在于奖励模型可能被误导，并且模型很快会学会对抗性策略。尽管如此，RLHF 在构建 LLM 助手时仍然有用，因为它可以从生成器 - 判别器的差距中受益并缓解幻觉。对于 RLHF 是否能称为 RL，业界存在不同看法。一些人认为 RLHF 不进行适当搜索，而 RL 通常会添加熵项；另一些人则认为 RLHF 在减轻 LLM 偏见和幻觉方面具有价值。",
+    "user_summary": "AI 大牛 Karpathy 认为基于人类反馈的强化学习（RLHF）只是勉强算得上强化学习（RL）。RLHF 是训练大语言模型的阶段之一，但与真正的 RL（如 AlphaGo 使用的）不同，RLHF 不会得到广泛认可。RLHF 的问题在于奖励模型可能被误导，并且模型很快会学会对抗性策略。尽管如此，RLHF 在构建 LLM 助手时仍然有用，因为它可以从生成器 - 判别器的差距中受益并缓解幻觉。对于 RLHF 是否能称为 RL，业界存在不同看法。一些人认为 RLHF 不进行适当搜索，而 RL 通常会添加熵项；另一些人则认为 RLHF 在减轻 LLM 偏见和幻觉方面具有价值。",
+    "keywords": [
+        "AI",
+        "大牛",
+        "Karpathy",
+        "RLHF",
+        "强化学习",
+        "RL",
+        "AlphaGo",
+        "奖励模型",
+        "生成器",
+        "判别器",
+        "幻觉",
+        "偏见",
+        "熵项"
+    ],
+    "timestamp": "2024-10-27T07:20:36.594075"
+}

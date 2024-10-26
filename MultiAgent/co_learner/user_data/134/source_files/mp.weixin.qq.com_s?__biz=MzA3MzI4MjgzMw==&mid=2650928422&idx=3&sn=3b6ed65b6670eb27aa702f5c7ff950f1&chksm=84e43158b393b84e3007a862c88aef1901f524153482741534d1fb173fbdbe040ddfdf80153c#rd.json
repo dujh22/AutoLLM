@@ -1,0 +1,33 @@
+{
+    "link": "http://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2650928422&idx=3&sn=3b6ed65b6670eb27aa702f5c7ff950f1&chksm=84e43158b393b84e3007a862c88aef1901f524153482741534d1fb173fbdbe040ddfdf80153c#rd",
+    "title": "揭秘！47页文档拆解苹果智能，从架构、数据到训练和优化",
+    "summary": "在2024年的全球开发者大会上，苹果推出了全新的个性化智能系统Apple Intelligence，该系统整合在iOS 18、iPadOS 18和macOS Sequoia中，为iPhone、iPad和Mac提供智能服务。Apple Intelligence被视为苹果创新的新篇章，通过结合生成式人工智能和用户个人信息，提供实用的智能服务，同时强调隐私和安全。一个月后，这项技术开始在iPhone 15 Pro和iPhone 15 Pro Max的iOS 18.1开发测试版中落地，用户可以体验其功能。苹果发布了47页的技术报告，详细介绍了一个名为AFM的基础模型，包括AFM-on-device和AFM-server，它们基于Transformer架构，具有高效和隐私保护的特性。报告还涵盖了模型的训练、后训练过程、适配器架构、量化技术以及负责任的AI原则，显示出Apple Intelligence在语言理解和任务执行方面的强大性能。",
+    "user_summary": "在2024年的全球开发者大会上，苹果推出了全新的个性化智能系统Apple Intelligence，该系统整合在iOS 18、iPadOS 18和macOS Sequoia中，为iPhone、iPad和Mac提供智能服务。Apple Intelligence被视为苹果创新的新篇章，通过结合生成式人工智能和用户个人信息，提供实用的智能服务，同时强调隐私和安全。一个月后，这项技术开始在iPhone 15 Pro和iPhone 15 Pro Max的iOS 18.1开发测试版中落地，用户可以体验其功能。苹果发布了47页的技术报告，详细介绍了一个名为AFM的基础模型，包括AFM-on-device和AFM-server，它们基于Transformer架构，具有高效和隐私保护的特性。报告还涵盖了模型的训练、后训练过程、适配器架构、量化技术以及负责任的AI原则，显示出Apple Intelligence在语言理解和任务执行方面的强大性能。",
+    "keywords": [
+        "苹果",
+        "Apple",
+        "Intelligence",
+        "iOS",
+        "18",
+        "iPadOS",
+        "18",
+        "macOS",
+        "Sequoia",
+        "iPhone",
+        "iPad",
+        "Mac",
+        "iPhone",
+        "15",
+        "Pro",
+        "iPhone",
+        "15",
+        "Pro",
+        "Max",
+        "AFM",
+        "Transformer架构",
+        "隐私保护",
+        "语言理解",
+        "任务执行"
+    ],
+    "timestamp": "2024-10-27T07:22:21.866526"
+}

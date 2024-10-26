@@ -1,0 +1,31 @@
+{
+    "link": "http://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2650930230&idx=3&sn=6ec482c10f36b8b28103c48bbd9658fd&chksm=84e43848b393b15ebe0ca6e5f0b31e0a41db3ab9158c400f0e5cc77a9231bdf40428b1a433ea#rd",
+    "title": "OpenAI「草莓」模型再次跳票，凌晨发布的SWE-bench Verified是个啥？",
+    "summary": "这篇文章介绍了OpenAI发布的SWE-bench Verified，这是一个改进版的用于评估大模型解决GitHub软件问题能力的基准测试数据集。原始的SWE-bench存在一些问题可能导致模型的编程能力被低估。OpenAI与专业软件开发人员合作，对SWE-bench进行了筛选和注释，以确保单元测试的适当性和问题描述的清晰性。这个改进后的版本提高了评估的准确性和可靠性，结果显示，一些AI编程模型在SWE-bench Verified上的表现有所提升，表明原来的基准可能低估了AI的能力。同时，文章还提到，虽然OpenAI未发布期待中的“草莓”模型，但SWE-bench Verified的发布对于AI编程能力的评估是一次重要的改进。",
+    "user_summary": "这篇文章介绍了OpenAI发布的SWE-bench Verified，这是一个改进版的用于评估大模型解决GitHub软件问题能力的基准测试数据集。原始的SWE-bench存在一些问题可能导致模型的编程能力被低估。OpenAI与专业软件开发人员合作，对SWE-bench进行了筛选和注释，以确保单元测试的适当性和问题描述的清晰性。这个改进后的版本提高了评估的准确性和可靠性，结果显示，一些AI编程模型在SWE-bench Verified上的表现有所提升，表明原来的基准可能低估了AI的能力。同时，文章还提到，虽然OpenAI未发布期待中的“草莓”模型，但SWE-bench Verified的发布对于AI编程能力的评估是一次重要的改进。",
+    "keywords": [
+        "OpenAI",
+        "SWE-bench",
+        "Verified",
+        "GitHub",
+        "软件问题",
+        "评估基准",
+        "数据集",
+        "模型",
+        "编程能力",
+        "低估",
+        "专业软件开发人员",
+        "单元测试",
+        "问题描述",
+        "清晰性",
+        "准确性",
+        "可靠性",
+        "AI编程模型",
+        "表现",
+        "提升",
+        "草莓模型",
+        "评估",
+        "改进"
+    ],
+    "timestamp": "2024-10-27T07:19:29.501315"
+}

@@ -1,0 +1,64 @@
+@import '@/styles/mixin';
+
+.contentContainer {
+  .foot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 16px;
+  }
+
+  .form {
+    width: calc(100% - 4px);
+    margin-top: 12px;
+    padding-right: 8px;
+    max-height: 500px;
+    overflow-y: auto;
+
+    @include sirius-scroll;
+  }
+
+  .introList {
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+
+    .introItem {
+      flex: 1;
+
+      &:nth-child(1) {
+        .image {
+          background: darkolivegreen;
+        }
+      }
+
+      &:nth-child(2) {
+        .image {
+          background: #090b21;
+        }
+      }
+
+      &:nth-child(3) {
+        .image {
+          background: #c48462;
+        }
+      }
+
+      .text {
+        font-size: 16px;
+        font-weight: bold;
+        margin-bottom: 12px;
+        text-align: center;
+      }
+
+      .image {
+        width: 100%;
+        border-radius: 8px;
+        overflow: hidden;
+        height: 300px;
+      }
+    }
+  }
+}

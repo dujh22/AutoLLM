@@ -1,0 +1,48 @@
+@mixin sirius-scroll($marginRight: 4px, $xtype: hidden, $defaultScrollWidth: 6px) {
+  overflow-y: auto;
+  overflow-y: overlay;
+  overflow-x: $xtype;
+  &::-webkit-scrollbar {
+    // display: none;
+    opacity: 0;
+    width: $defaultScrollWidth;
+    background-color: transparent;
+    // background-color: transparent;
+    &:horizontal {
+      height: $defaultScrollWidth;
+    }
+  }
+  &:hover {
+    &::-webkit-scrollbar {
+      opacity: 1;
+      display: block;
+      background-color: transparent;
+      width: $defaultScrollWidth;
+      padding-right: 4px;
+      &:horizontal {
+        height: $defaultScrollWidth;
+      }
+    }
+    /*滚动条两端方向按钮*/
+    &::-webkit-scrollbar-button {
+      display: none;
+    }
+    /*滚动条中间滑动部分*/
+    &::-webkit-scrollbar-thumb {
+      // background: #d4d4d6;
+      background: #d4d4d6;
+      border-radius: 17px;
+      padding-right: 4px;
+      // right: 4px;
+      width: $defaultScrollWidth;
+      opacity: 0;
+      &:hover {
+        background-color: #dddddd;
+      }
+    }
+    /*滚动条右下角区域*/
+    &::-webkit-scrollbar-corner {
+      display: none;
+    }
+  }
+}

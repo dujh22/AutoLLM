@@ -1,0 +1,61 @@
+@import '@/styles/mixin';
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+
+  .chat {
+    flex: 1 1 auto;
+    border: 1px solid #d4d4d6;
+    border-radius: 8px;
+    padding: 12px;
+    height: 100px;
+
+    margin-right: 4px;
+    @include sirius-scroll;
+
+    .chatRContainer,
+    .chatLContainer {
+      display: flex;
+      margin-bottom: 16px;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+
+    .chatLContainer {
+      justify-content: flex-start;
+    }
+
+    .chatRContainer {
+      justify-content: flex-end;
+    }
+
+    .chatContent {
+      display: inline-flex;
+      align-items: center;
+      max-width: 80%;
+      gap: 8px;
+      word-break: break-all;
+
+      .content {
+        flex: 1;
+        padding: 8px 12px;
+        border-radius: 8px;
+        border: 1px solid #d4d4d6;
+      }
+    }
+  }
+
+  .input {
+    flex: 0 0 50px;
+    width: 500px;
+    margin: 30px auto 0;
+
+    .search {
+      cursor: pointer;
+    }
+  }
+}

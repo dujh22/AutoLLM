@@ -1,0 +1,27 @@
+{
+    "link": "http://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2650927888&idx=3&sn=68fcbe5bc86381f18d171c3aa0fa16f1&chksm=84e4376eb393be78a2b9d00f4efe3cd78f481aea4e98cd9ca47d666200e95fbc191878f9bbc2#rd",
+    "title": "私有数据、删掉的内容可以永久访问，GitHub官方：故意设计的",
+    "summary": "开源安全软件公司 Truffle Security 发现，在 GitHub 上删除的内容和私有存储库的数据实际上可以永久访问，这是 GitHub 的故意设计。这种问题被称为 CFOR（Cross Fork Object Reference）漏洞，允许用户通过提供提交哈希值来访问原本不可见的数据。即使删除了 fork 的存储库，其中的提交数据仍然可以通过原始存储库访问。Truffle Security 的调查显示，大型公司也可能因此暴露敏感信息，如 API 密钥。GitHub 表示这是其架构的一部分，但 Truffle Security 认为这可能误导用户关于私有和公共存储库安全边界的理解。解决方案包括密钥轮换，因为存储库网络中的提交会永久存在。",
+    "user_summary": "开源安全软件公司 Truffle Security 发现，在 GitHub 上删除的内容和私有存储库的数据实际上可以永久访问，这是 GitHub 的故意设计。这种问题被称为 CFOR（Cross Fork Object Reference）漏洞，允许用户通过提供提交哈希值来访问原本不可见的数据。即使删除了 fork 的存储库，其中的提交数据仍然可以通过原始存储库访问。Truffle Security 的调查显示，大型公司也可能因此暴露敏感信息，如 API 密钥。GitHub 表示这是其架构的一部分，但 Truffle Security 认为这可能误导用户关于私有和公共存储库安全边界的理解。解决方案包括密钥轮换，因为存储库网络中的提交会永久存在。",
+    "keywords": [
+        "GitHub",
+        "Truffle",
+        "Security",
+        "CFOR",
+        "漏洞",
+        "Cross",
+        "Fork",
+        "Object",
+        "Reference",
+        "数据删除",
+        "现实访问",
+        "永久存储",
+        "敏感信息",
+        "API",
+        "密钥",
+        "安全边界",
+        "解决方案",
+        "密钥轮换"
+    ],
+    "timestamp": "2024-10-27T07:22:50.118016"
+}

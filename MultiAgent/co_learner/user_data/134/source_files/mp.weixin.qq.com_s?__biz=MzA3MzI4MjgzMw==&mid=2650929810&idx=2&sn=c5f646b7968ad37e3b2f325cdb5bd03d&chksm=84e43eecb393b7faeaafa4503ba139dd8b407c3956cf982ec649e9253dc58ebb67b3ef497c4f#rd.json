@@ -1,0 +1,24 @@
+{
+    "link": "http://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2650929810&idx=2&sn=c5f646b7968ad37e3b2f325cdb5bd03d&chksm=84e43eecb393b7faeaafa4503ba139dd8b407c3956cf982ec649e9253dc58ebb67b3ef497c4f#rd",
+    "title": "新PyTorch API：几行代码实现不同注意力变体，兼具FlashAttention性能和PyTorch灵活性",
+    "summary": "PyTorch团队引入了FlexAttention，这是一个灵活的API，允许用户用几行PyTorch代码实现多种注意力变体，解决了现有注意力机制灵活性和效率之间的矛盾。FlexAttention通过接受用户定义的函数score_mod来修改注意力分数，以适应不同的注意力机制，如全注意力、相对位置编码、软帽限制和因果掩码等。这种方法在保持高性能的同时，还利用了注意力掩码的稀疏性来优化内存使用。FlexAttention的性能接近手写的Triton内核，为研究人员提供了更大的灵活性和便利性。",
+    "user_summary": "PyTorch团队引入了FlexAttention，这是一个灵活的API，允许用户用几行PyTorch代码实现多种注意力变体，解决了现有注意力机制灵活性和效率之间的矛盾。FlexAttention通过接受用户定义的函数score_mod来修改注意力分数，以适应不同的注意力机制，如全注意力、相对位置编码、软帽限制和因果掩码等。这种方法在保持高性能的同时，还利用了注意力掩码的稀疏性来优化内存使用。FlexAttention的性能接近手写的Triton内核，为研究人员提供了更大的灵活性和便利性。",
+    "keywords": [
+        "PyTorch",
+        "FlexAttention",
+        "API",
+        "注意力机制",
+        "灵活性",
+        "效率",
+        "评分修改",
+        "全注意力",
+        "相对位置编码",
+        "软帽限制",
+        "因果掩码",
+        "高性能",
+        "内存使用",
+        "Triton内核",
+        "研究人员"
+    ],
+    "timestamp": "2024-10-27T07:20:17.103198"
+}

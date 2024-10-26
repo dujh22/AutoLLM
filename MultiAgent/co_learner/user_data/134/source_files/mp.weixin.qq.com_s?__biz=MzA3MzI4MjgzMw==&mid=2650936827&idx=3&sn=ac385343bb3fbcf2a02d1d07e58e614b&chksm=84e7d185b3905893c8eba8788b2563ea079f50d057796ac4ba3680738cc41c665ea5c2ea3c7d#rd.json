@@ -1,0 +1,27 @@
+{
+    "link": "http://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2650936827&idx=3&sn=ac385343bb3fbcf2a02d1d07e58e614b&chksm=84e7d185b3905893c8eba8788b2563ea079f50d057796ac4ba3680738cc41c665ea5c2ea3c7d#rd",
+    "title": "Windows 竞技场：面向下一代AI Agent的测试集",
+    "summary": "这篇文章介绍了微软开发的Windows Agent Arena (WAA)，这是一个基于Windows操作系统的AI Agent测试集，用于评估多模态操作系统代理执行任务的能力。WAA包含154个日常Windows任务，旨在帮助研究人员测试和比较不同AI Computer Agent的性能。目前，最先进的Agent在WAA上的成功率约为19.5%，而人类不借助外部帮助的得分是74.5%。文章还提到了当前Agent存在的缺陷和未来的发展方向，强调了在开发过程中重视隐私、安全和伦理规范的重要性。",
+    "user_summary": "这篇文章介绍了微软开发的Windows Agent Arena (WAA)，这是一个基于Windows操作系统的AI Agent测试集，用于评估多模态操作系统代理执行任务的能力。WAA包含154个日常Windows任务，旨在帮助研究人员测试和比较不同AI Computer Agent的性能。目前，最先进的Agent在WAA上的成功率约为19.5%，而人类不借助外部帮助的得分是74.5%。文章还提到了当前Agent存在的缺陷和未来的发展方向，强调了在开发过程中重视隐私、安全和伦理规范的重要性。",
+    "keywords": [
+        "Windows",
+        "Agent",
+        "Arena",
+        "(WAA)",
+        "AI",
+        "Agent",
+        "多模态操作系统",
+        "任务评估",
+        "154个任务",
+        "研究人员",
+        "成功率",
+        "19.5%",
+        "人类",
+        "74.5%",
+        "发展方向",
+        "隐私",
+        "安全",
+        "伦理规范"
+    ],
+    "timestamp": "2024-10-27T07:10:04.296082"
+}

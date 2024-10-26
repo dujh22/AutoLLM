@@ -1,0 +1,30 @@
+{
+    "link": "http://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2650937076&idx=3&sn=d8622d9ae94a83d1d857ab9455faf77d&chksm=84e7d28ab3905b9cb3e3c2ffb8b5ff5036a73da81439e59d6376d6af39eb180319104c000c43#rd",
+    "title": "微调大模型，AMD MI300X就够了！跟着这篇博客微调Llama 3.1 405B，效果媲美H100",
+    "summary": "创业公司Felafax致力于简化AI训练集群的搭建，目标是降低机器学习的训练成本。该公司认为AMD的GPU，特别是MI300X系列，提供了比英伟达更高的性价比。Felafax的联合创始人Nikhil Sonti分享了如何使用8张AMD MI300X GPU和JAX库微调开源大模型LLaMA 3.1 405B，所有代码已开源。JAX库在多硬件并行支持、独立于底层硬件和高度适应性方面具有优势，使其成为在非英伟达硬件上训练AI模型的合适选择。在8张AMD MI300X GPU上，LLaMA 405B模型的训练速度达到35 tokens/秒，内存效率稳定在约70%。",
+    "user_summary": "创业公司Felafax致力于简化AI训练集群的搭建，目标是降低机器学习的训练成本。该公司认为AMD的GPU，特别是MI300X系列，提供了比英伟达更高的性价比。Felafax的联合创始人Nikhil Sonti分享了如何使用8张AMD MI300X GPU和JAX库微调开源大模型LLaMA 3.1 405B，所有代码已开源。JAX库在多硬件并行支持、独立于底层硬件和高度适应性方面具有优势，使其成为在非英伟达硬件上训练AI模型的合适选择。在8张AMD MI300X GPU上，LLaMA 405B模型的训练速度达到35 tokens/秒，内存效率稳定在约70%。",
+    "keywords": [
+        "Felafax",
+        "AI训练集群",
+        "机器学习训练成本",
+        "AMD",
+        "GPU",
+        "MI300X",
+        "英伟达性价比",
+        "Nikhil",
+        "Sonti",
+        "JAX库",
+        "LLaMA",
+        "3.1",
+        "405B",
+        "模型",
+        "开源",
+        "多硬件并行",
+        "独立底层硬件",
+        "高度适应性",
+        "训练速度",
+        "tokens/秒",
+        "内存效率"
+    ],
+    "timestamp": "2024-10-27T07:09:22.627657"
+}

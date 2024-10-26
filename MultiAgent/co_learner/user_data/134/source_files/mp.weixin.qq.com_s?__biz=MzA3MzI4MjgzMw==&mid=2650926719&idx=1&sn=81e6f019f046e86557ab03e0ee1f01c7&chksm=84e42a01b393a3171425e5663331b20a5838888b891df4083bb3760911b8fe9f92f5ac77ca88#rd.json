@@ -1,0 +1,25 @@
+{
+    "link": "http://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2650926719&idx=1&sn=81e6f019f046e86557ab03e0ee1f01c7&chksm=84e42a01b393a3171425e5663331b20a5838888b891df4083bb3760911b8fe9f92f5ac77ca88#rd",
+    "title": "GitHub星标超16万，爆火AutoGPT进阶版来了：定制节点、多智能体协同",
+    "summary": "新一代开源项目AutoGPT的Pre-alpha版本发布，旨在使构建、运行和共享AI智能体变得更加容易和可靠。该项目提供了两个主要组件：AutoGPT Server（后端），用于创建复合多智能体系统，以及AutoGPT Builder（前端），用于设计和部署智能体。关键特性是使用“块”来构建智能体，允许用户结合高度模块化的功能创建自定义行为。目前，项目已为Reddit发帖、Discord消息发送和维基百科摘要获取等任务提供预设块。虽然仍处于早期阶段，但AutoGPT已展示出其潜力，并将继续发展。",
+    "user_summary": "新一代开源项目AutoGPT的Pre-alpha版本发布，旨在使构建、运行和共享AI智能体变得更加容易和可靠。该项目提供了两个主要组件：AutoGPT Server（后端），用于创建复合多智能体系统，以及AutoGPT Builder（前端），用于设计和部署智能体。关键特性是使用“块”来构建智能体，允许用户结合高度模块化的功能创建自定义行为。目前，项目已为Reddit发帖、Discord消息发送和维基百科摘要获取等任务提供预设块。虽然仍处于早期阶段，但AutoGPT已展示出其潜力，并将继续发展。",
+    "keywords": [
+        "AutoGPT",
+        "Open",
+        "source",
+        "AI智能体",
+        "Builder",
+        "Server前端",
+        "后端",
+        "复合多智能体系统",
+        "块",
+        "模块化",
+        "预设块",
+        "Reddit",
+        "Discord",
+        "维基百科",
+        "潜力",
+        "发展"
+    ],
+    "timestamp": "2024-10-27T07:25:02.359169"
+}

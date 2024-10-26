@@ -1,0 +1,17 @@
+.timeline {
+  :global {
+    .ant-timeline-item-label {
+      width: 80px !important;
+    }
+
+    .ant-timeline-item-content {
+      inset-inline-start: 84px !important;
+      width: calc(100% - 92px) !important;
+    }
+
+    .ant-timeline-item-tail,
+    .ant-timeline-item-head {
+      inset-inline-start: 94px !important;
+    }
+  }
+}

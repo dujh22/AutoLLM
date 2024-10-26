@@ -1,0 +1,32 @@
+{
+    "link": "http://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2650935056&idx=4&sn=ff20461efc284a44c8000794fca8e523&chksm=84e7cb6eb390427869a3b7a87df38e03f843de15b81df788dcee7813fcbb0b7da626b41b8d43#rd",
+    "title": "从架构、工艺到能效表现，全面了解LLM硬件加速，这篇综述就够了",
+    "summary": "本文对使用 FPGA、ASIC 等硬件加速器对大型语言模型（LLM）的性能和能效进行了全面调查。深度学习中的Transformer模型在语言建模中发挥了重要作用，而硬件加速对于提升其效率至关重要。研究者详细列举和比较了使用 FPGA 的多项研究，如 FTRANS、多头注意力加速器等，以及基于 CPU 和 GPU 的加速器如 TurboTransformer 和 Softmax 重组技术。此外，还探讨了 ASIC 加速器如 A3、ELSA 和 SpAtten，以及内存硬件加速器如 ATT 和 ReTransformer。文章提供了各项加速器的性能和能效定量比较，展示了不同技术在不同工艺下的表现。",
+    "user_summary": "本文对使用 FPGA、ASIC 等硬件加速器对大型语言模型（LLM）的性能和能效进行了全面调查。深度学习中的Transformer模型在语言建模中发挥了重要作用，而硬件加速对于提升其效率至关重要。研究者详细列举和比较了使用 FPGA 的多项研究，如 FTRANS、多头注意力加速器等，以及基于 CPU 和 GPU 的加速器如 TurboTransformer 和 Softmax 重组技术。此外，还探讨了 ASIC 加速器如 A3、ELSA 和 SpAtten，以及内存硬件加速器如 ATT 和 ReTransformer。文章提供了各项加速器的性能和能效定量比较，展示了不同技术在不同工艺下的表现。",
+    "keywords": [
+        "FPGA",
+        "ASIC",
+        "硬件加速器",
+        "大型语言模型",
+        "LLM",
+        "Transformer",
+        "深度学习",
+        "性能",
+        "能效",
+        "FTRANS",
+        "多头注意力加速器",
+        "CPU",
+        "GPU",
+        "TurboTransformer",
+        "Softmax",
+        "重组技术",
+        "ASIC",
+        "A3",
+        "ELSA",
+        "SpAtten",
+        "内存硬件加速器",
+        "ATT",
+        "ReTransformer"
+    ],
+    "timestamp": "2024-10-27T07:12:10.444721"
+}

@@ -1,0 +1,16 @@
+{
+    "link": "https://example.com/sample-article",
+    "title": "Sample Article Title",
+    "summary": "本文讲述了使用Python创建内容管理器的教程，该管理器能够生成文章的摘要、标题和关键词，为信息处理和检索提供了便利。",
+    "user_summary": "技术要点：Python编程、内容管理器开发、摘要生成、标题提取、关键词提取。",
+    "keywords": [
+        "Python",
+        "编写",
+        "内容管理器",
+        "生成",
+        "摘要",
+        "标题",
+        "关键词"
+    ],
+    "timestamp": "2024-10-26T15:14:06.473014"
+}

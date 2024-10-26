@@ -1,0 +1,32 @@
+{
+    "link": "http://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2650934126&idx=4&sn=e3ebe46ce47683aee042e91a65691774&chksm=84e7cf10b39046069b34dd4ea8e22cf0242514db71f61b776f3587ff39ebc5aed4935a614f74#rd",
+    "title": "与「李白」赏图赋诗，同「猴哥」直面天命，人大高瓴提出MMRole多模态角色扮演",
+    "summary": "中国人民大学高瓴人工智能学院的研究团队提出了多模态角色扮演智能体（MRPAs）的概念，并推出了MMRole框架，包括大规模多模态角色扮演数据集MMRole-Data和评测方法MMRole-Eval。MMRole-Data包含85个角色、11K张图像和14K段多模态对话，旨在训练和评估MRPAs的性能。MMRole-Agent是首个MRPA，展示出优秀的多模态理解和角色扮演能力。该框架的提出扩展了角色扮演智能体的应用场景，为AI交互带来了更沉浸的体验。",
+    "user_summary": "中国人民大学高瓴人工智能学院的研究团队提出了多模态角色扮演智能体（MRPAs）的概念，并推出了MMRole框架，包括大规模多模态角色扮演数据集MMRole-Data和评测方法MMRole-Eval。MMRole-Data包含85个角色、11K张图像和14K段多模态对话，旨在训练和评估MRPAs的性能。MMRole-Agent是首个MRPA，展示出优秀的多模态理解和角色扮演能力。该框架的提出扩展了角色扮演智能体的应用场景，为AI交互带来了更沉浸的体验。",
+    "keywords": [
+        "中国人民大学",
+        "高瓴人工智能学院",
+        "MRPAs",
+        "MMRole",
+        "框架",
+        "大规模",
+        "多模态",
+        "角色扮演",
+        "数据集",
+        "MMRole-Data",
+        "评测方法",
+        "MMRole-Eval",
+        "角色",
+        "图像",
+        "对话",
+        "表现",
+        "MRPAs",
+        "多模态",
+        "理解",
+        "AI",
+        "交互",
+        "沉浸",
+        "体验"
+    ],
+    "timestamp": "2024-10-27T07:13:37.433534"
+}

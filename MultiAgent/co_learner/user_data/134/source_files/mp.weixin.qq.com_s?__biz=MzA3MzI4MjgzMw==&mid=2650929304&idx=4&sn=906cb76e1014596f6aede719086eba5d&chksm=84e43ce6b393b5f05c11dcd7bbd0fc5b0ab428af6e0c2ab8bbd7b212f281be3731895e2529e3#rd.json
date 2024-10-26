@@ -1,0 +1,23 @@
+{
+    "link": "http://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2650929304&idx=4&sn=906cb76e1014596f6aede719086eba5d&chksm=84e43ce6b393b5f05c11dcd7bbd0fc5b0ab428af6e0c2ab8bbd7b212f281be3731895e2529e3#rd",
+    "title": "李飞飞「空间智能」之后，上交、智源、北大等提出空间大模型SpatialBot",
+    "summary": "这篇文章介绍了斯坦福大学研究生蔡闻骁等人提出的空间大模型 SpatialBot，该模型旨在让多模态大模型理解深度和空间。研究者通过 SpatialQA 数据集和 SpatialBench 榜单引导模型理解和使用深度信息，以实现更精确的空间概念理解。SpatialBot 可以在 RGBD 输入的基础上，通过 DepthAPI 获取准确的深度信息，从而在通用场景和具身场景中表现出色，特别是在物体位置、大小、接触判断以及机器人抓取任务上。这一工作对于推动具身智能和空间智能的研究具有重要意义。",
+    "user_summary": "这篇文章介绍了斯坦福大学研究生蔡闻骁等人提出的空间大模型 SpatialBot，该模型旨在让多模态大模型理解深度和空间。研究者通过 SpatialQA 数据集和 SpatialBench 榜单引导模型理解和使用深度信息，以实现更精确的空间概念理解。SpatialBot 可以在 RGBD 输入的基础上，通过 DepthAPI 获取准确的深度信息，从而在通用场景和具身场景中表现出色，特别是在物体位置、大小、接触判断以及机器人抓取任务上。这一工作对于推动具身智能和空间智能的研究具有重要意义。",
+    "keywords": [
+        "SpatialBot",
+        "多模态大模型",
+        "深度",
+        "空间理解",
+        "SpatialQA",
+        "SpatialBench",
+        "RGBD",
+        "DepthAPI",
+        "物体位置",
+        "大小",
+        "接触判断",
+        "机器人抓取",
+        "具身智能",
+        "空间智能"
+    ],
+    "timestamp": "2024-10-27T07:21:05.902970"
+}

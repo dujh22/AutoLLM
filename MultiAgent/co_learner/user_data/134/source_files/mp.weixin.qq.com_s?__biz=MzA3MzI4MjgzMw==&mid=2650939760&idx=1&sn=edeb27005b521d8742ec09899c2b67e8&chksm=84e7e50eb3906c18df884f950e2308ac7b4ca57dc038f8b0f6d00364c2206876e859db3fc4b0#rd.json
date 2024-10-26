@@ -1,0 +1,27 @@
+{
+    "link": "http://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2650939760&idx=1&sn=edeb27005b521d8742ec09899c2b67e8&chksm=84e7e50eb3906c18df884f950e2308ac7b4ca57dc038f8b0f6d00364c2206876e859db3fc4b0#rd",
+    "title": "大模型是否有推理能力？DeepMind数月前的论文让AI社区吵起来了",
+    "summary": "DeepMind的一项研究显示，一个2.7亿参数的Transformer模型可以通过标准的监督学习，无需依赖搜索算法就能达到国际象棋的特级大师水平，优于AlphaZero和GPT-3.5-turbo-instruct。这一结果被一些人解读为Transformer模型可能具有推理和规划能力，但也有争议。Meta FAIR的田渊栋指出，评估方法“blitz”可能存在局限，可能并不足以测试模型的推理能力。纽约大学的Gary Marcus则认为模型的泛化能力存在问题。该模型的训练是基于Stockfish 16注释的大量棋局，通过预测棋盘的动作-值来决策，表明大型transformer可能可以作为算法近似的强大技术。",
+    "user_summary": "DeepMind的一项研究显示，一个2.7亿参数的Transformer模型可以通过标准的监督学习，无需依赖搜索算法就能达到国际象棋的特级大师水平，优于AlphaZero和GPT-3.5-turbo-instruct。这一结果被一些人解读为Transformer模型可能具有推理和规划能力，但也有争议。Meta FAIR的田渊栋指出，评估方法“blitz”可能存在局限，可能并不足以测试模型的推理能力。纽约大学的Gary Marcus则认为模型的泛化能力存在问题。该模型的训练是基于Stockfish 16注释的大量棋局，通过预测棋盘的动作-值来决策，表明大型transformer可能可以作为算法近似的强大技术。",
+    "keywords": [
+        "DeepMind",
+        "Transformer",
+        "模型",
+        "国际象棋",
+        "特级大师",
+        "AlphaZero",
+        "GPT-3.5-turbo-instruct",
+        "推理",
+        "规划能力",
+        "评估方法",
+        "blitz",
+        "田渊栋",
+        "泛化能力",
+        "Stockfish",
+        "16",
+        "棋局",
+        "算法",
+        "近似"
+    ],
+    "timestamp": "2024-10-27T07:06:47.133446"
+}

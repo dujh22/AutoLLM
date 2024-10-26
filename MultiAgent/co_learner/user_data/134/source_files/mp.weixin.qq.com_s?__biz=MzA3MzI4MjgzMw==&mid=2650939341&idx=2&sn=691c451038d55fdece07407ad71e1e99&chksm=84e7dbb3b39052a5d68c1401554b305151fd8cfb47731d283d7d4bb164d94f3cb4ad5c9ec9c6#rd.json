@@ -1,0 +1,22 @@
+{
+    "link": "http://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2650939341&idx=2&sn=691c451038d55fdece07407ad71e1e99&chksm=84e7dbb3b39052a5d68c1401554b305151fd8cfb47731d283d7d4bb164d94f3cb4ad5c9ec9c6#rd",
+    "title": "英伟达开源最新大模型Nemotron 70B后，只有OpenAI o1一个对手了",
+    "summary": "英伟达开源了性能强大的语言模型Llama-3.1-Nemotron-70B-Instruct，该模型在多个基准测试中击败了包括OpenAI的GPT-4o和Anthropic的Claude-3.5 Sonnet在内的其他模型。Llama-3.1-Nemotron-70B-Instruct在通用领域的性能表现优秀，但尚未针对数学等专业领域进行优化。模型基于Llama-3.1-70B，并使用RLHF技术进行训练。此外，英伟达还提供了训练数据集HelpSteer2和另一个模型Llama-3.1-Nemotron-70B-Reward。用户可以在线体验该模型，但部署该模型需要特定的硬件资源。",
+    "user_summary": "英伟达开源了性能强大的语言模型Llama-3.1-Nemotron-70B-Instruct，该模型在多个基准测试中击败了包括OpenAI的GPT-4o和Anthropic的Claude-3.5 Sonnet在内的其他模型。Llama-3.1-Nemotron-70B-Instruct在通用领域的性能表现优秀，但尚未针对数学等专业领域进行优化。模型基于Llama-3.1-70B，并使用RLHF技术进行训练。此外，英伟达还提供了训练数据集HelpSteer2和另一个模型Llama-3.1-Nemotron-70B-Reward。用户可以在线体验该模型，但部署该模型需要特定的硬件资源。",
+    "keywords": [
+        "英伟达",
+        "Llama-3.1-Nemotron-70B-Instruct",
+        "GPT-4",
+        "OpenAI",
+        "Anthropic",
+        "Claude-3.5",
+        "Sonnet",
+        "通用领域",
+        "RLHF",
+        "HelpSteer2",
+        "Llama-3.1-Nemotron-70B-Reward",
+        "在线体验",
+        "硬件资源"
+    ],
+    "timestamp": "2024-10-27T07:07:43.272004"
+}

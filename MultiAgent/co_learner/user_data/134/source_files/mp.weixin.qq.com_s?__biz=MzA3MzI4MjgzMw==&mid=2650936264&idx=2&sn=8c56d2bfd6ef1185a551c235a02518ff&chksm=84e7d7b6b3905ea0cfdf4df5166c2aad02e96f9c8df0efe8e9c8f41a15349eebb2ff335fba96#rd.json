@@ -1,0 +1,28 @@
+{
+    "link": "http://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2650936264&idx=2&sn=8c56d2bfd6ef1185a551c235a02518ff&chksm=84e7d7b6b3905ea0cfdf4df5166c2aad02e96f9c8df0efe8e9c8f41a15349eebb2ff335fba96#rd",
+    "title": "Layout工程师危，谷歌自动芯片设计AlphaChip问世，开放权重可外部定制",
+    "summary": "谷歌发表在Nature上的论文介绍了其使用深度强化学习设计芯片布局的方法，称为AlphaChip。该方法已经用于设计谷歌自定义AI加速器TPU的三代芯片布局，并且谷歌开放了一个在20个TPU模块上预训练的检查点，以便外部用户可以使用AlphaChip进行芯片设计。这种方法只需数小时就能完成与人类相当或更好的芯片布局，大大加速了设计过程。AlphaChip不仅用于设计AI加速器，还应用于Alphabet的其他芯片设计，如Google Axion处理器，并在业界得到采用，如联发科在旗舰5G芯片开发中的应用。谷歌将继续开发AlphaChip，以优化芯片设计的各个环节。",
+    "user_summary": "谷歌发表在Nature上的论文介绍了其使用深度强化学习设计芯片布局的方法，称为AlphaChip。该方法已经用于设计谷歌自定义AI加速器TPU的三代芯片布局，并且谷歌开放了一个在20个TPU模块上预训练的检查点，以便外部用户可以使用AlphaChip进行芯片设计。这种方法只需数小时就能完成与人类相当或更好的芯片布局，大大加速了设计过程。AlphaChip不仅用于设计AI加速器，还应用于Alphabet的其他芯片设计，如Google Axion处理器，并在业界得到采用，如联发科在旗舰5G芯片开发中的应用。谷歌将继续开发AlphaChip，以优化芯片设计的各个环节。",
+    "keywords": [
+        "谷歌",
+        "AlphaChip",
+        "深度强化学习",
+        "芯片布局",
+        "AI",
+        "加速器",
+        "TPU",
+        "三代",
+        "芯片设计",
+        "时间加速",
+        "谷歌",
+        "Axion",
+        "处理器",
+        "业界采用",
+        "联发科",
+        "5G",
+        "芯片",
+        "开发",
+        "继续开发"
+    ],
+    "timestamp": "2024-10-27T07:11:01.509855"
+}

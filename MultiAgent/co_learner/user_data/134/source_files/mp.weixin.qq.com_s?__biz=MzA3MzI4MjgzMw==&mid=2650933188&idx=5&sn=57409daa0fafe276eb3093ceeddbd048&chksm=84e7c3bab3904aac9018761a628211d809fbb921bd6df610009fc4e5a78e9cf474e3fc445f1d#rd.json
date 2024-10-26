@@ -1,0 +1,31 @@
+{
+    "link": "http://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2650933188&idx=5&sn=57409daa0fafe276eb3093ceeddbd048&chksm=84e7c3bab3904aac9018761a628211d809fbb921bd6df610009fc4e5a78e9cf474e3fc445f1d#rd",
+    "title": "ECCV 2024 | 比基准高30%，媲美Gemini 1.5 Pro，基于记忆的视频理解智能体来了",
+    "summary": "研究人员提出了VideoAgent，这是一个基于记忆和工具使用的智能体，用于视频理解，能与先进的Gemini 1.5 Pro相媲美。VideoAgent通过构建时间记忆（存储每2秒视频片段的事件）和物体记忆（存储视频中出现的人和物体信息）来处理视频。模型使用大语言模型推理并从记忆中提取关键信息来回答视频相关问题。这种方法解决了长视频处理时的内存消耗问题，并且VideoAgent可以在实时性要求的场景中使用。在EgoSchema、WorldQA和NExT-QA等数据集上，VideoAgent表现出比多模态大语言模型更好的性能。",
+    "user_summary": "研究人员提出了VideoAgent，这是一个基于记忆和工具使用的智能体，用于视频理解，能与先进的Gemini 1.5 Pro相媲美。VideoAgent通过构建时间记忆（存储每2秒视频片段的事件）和物体记忆（存储视频中出现的人和物体信息）来处理视频。模型使用大语言模型推理并从记忆中提取关键信息来回答视频相关问题。这种方法解决了长视频处理时的内存消耗问题，并且VideoAgent可以在实时性要求的场景中使用。在EgoSchema、WorldQA和NExT-QA等数据集上，VideoAgent表现出比多模态大语言模型更好的性能。",
+    "keywords": [
+        "VideoAgent",
+        "记忆",
+        "时间记忆",
+        "物体记忆",
+        "视频理解",
+        "Gemini",
+        "1.5",
+        "Pro",
+        "事件",
+        "大语言模型",
+        "推理",
+        "关键信息",
+        "问题",
+        "长视频",
+        "内存消耗",
+        "实时性",
+        "EgoSchema",
+        "WorldQA",
+        "NExT-QA",
+        "数据集",
+        "多模态",
+        "性能"
+    ],
+    "timestamp": "2024-10-27T07:15:01.595720"
+}

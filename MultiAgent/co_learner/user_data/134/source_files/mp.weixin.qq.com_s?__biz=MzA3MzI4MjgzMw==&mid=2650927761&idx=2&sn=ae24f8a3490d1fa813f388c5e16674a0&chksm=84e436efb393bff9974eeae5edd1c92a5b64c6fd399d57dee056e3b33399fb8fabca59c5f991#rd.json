@@ -1,0 +1,22 @@
+{
+    "link": "http://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2650927761&idx=2&sn=ae24f8a3490d1fa813f388c5e16674a0&chksm=84e436efb393bff9974eeae5edd1c92a5b64c6fd399d57dee056e3b33399fb8fabca59c5f991#rd",
+    "title": "反转了？在一场新较量中，号称替代MLP的KAN只赢一局",
+    "summary": "研究人员对比了KAN（Kolmogorov–Arnold Networks）和多层感知器（MLP）在多个任务中的性能。KAN在符号公式表示任务中表现出色，但在机器学习、计算机视觉、自然语言处理和音频处理等领域的任务中，MLP通常优于KAN。研究发现，KAN的优势可能源于其使用的B样条激活函数，但这种优势并不普遍适用。当使用B样条激活函数替换MLP的激活函数后，MLP的性能可以与KAN匹敌甚至超过KAN。此外，KAN在连续学习任务中的遗忘问题比MLP更严重。研究结论是，KAN和MLP各有适用的场景，选择哪种模型取决于具体任务需求。",
+    "user_summary": "研究人员对比了KAN（Kolmogorov–Arnold Networks）和多层感知器（MLP）在多个任务中的性能。KAN在符号公式表示任务中表现出色，但在机器学习、计算机视觉、自然语言处理和音频处理等领域的任务中，MLP通常优于KAN。研究发现，KAN的优势可能源于其使用的B样条激活函数，但这种优势并不普遍适用。当使用B样条激活函数替换MLP的激活函数后，MLP的性能可以与KAN匹敌甚至超过KAN。此外，KAN在连续学习任务中的遗忘问题比MLP更严重。研究结论是，KAN和MLP各有适用的场景，选择哪种模型取决于具体任务需求。",
+    "keywords": [
+        "KAN",
+        "Kolmogorov–Arnold",
+        "Networks",
+        "MLP",
+        "多层感知器",
+        "符号公式表示",
+        "机器学习",
+        "计算机视觉",
+        "自然语言处理",
+        "音频处理",
+        "B样条激活函数",
+        "连续学习",
+        "任务需求"
+    ],
+    "timestamp": "2024-10-27T07:23:09.663723"
+}

@@ -1,0 +1,28 @@
+{
+    "link": "http://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2650932654&idx=3&sn=1d9aa7a8797378e6f7380ea62acbd536&chksm=84e7c1d0b39048c6e199ade30e7bfbfdfdd5cfdd2f21194abbf70acd7e5fd646c42154fa5229#rd",
+    "title": "最强笔记软件Obsidian中也能使用LLM，让它成为你的智慧第二大脑",
+    "summary": "本文介绍了如何在知识管理软件Obsidian中使用AI工具，包括Ollama和两个Obsidian插件BMO Chatbot和Ollama，以提升学习和工作效率。Obsidian是一个流行的笔记工具，支持Markdown、丰富的插件生态和本地存储。Ollama是用于本地部署LLM（大型语言模型）的工具，而BMO Chatbot则将LLM整合到Obsidian中，能进行问答、文档总结和标题建议。通过Ollama插件，用户可以预配置命令来生成代码或续写内容。本地部署LLM保证了数据隐私和安全。这些工具的结合使用能帮助用户进行更高效和创新的知识管理和内容创作。",
+    "user_summary": "本文介绍了如何在知识管理软件Obsidian中使用AI工具，包括Ollama和两个Obsidian插件BMO Chatbot和Ollama，以提升学习和工作效率。Obsidian是一个流行的笔记工具，支持Markdown、丰富的插件生态和本地存储。Ollama是用于本地部署LLM（大型语言模型）的工具，而BMO Chatbot则将LLM整合到Obsidian中，能进行问答、文档总结和标题建议。通过Ollama插件，用户可以预配置命令来生成代码或续写内容。本地部署LLM保证了数据隐私和安全。这些工具的结合使用能帮助用户进行更高效和创新的知识管理和内容创作。",
+    "keywords": [
+        "Obsidian",
+        "AI",
+        "Ollama",
+        "BMO",
+        "Chatbot",
+        "LLM",
+        "学习效率",
+        "工作效率",
+        "笔记工具",
+        "Markdown",
+        "插件生态",
+        "本地存储",
+        "问答",
+        "文档总结",
+        "标题建议",
+        "代码生成",
+        "内容创作",
+        "数据隐私",
+        "数据安全"
+    ],
+    "timestamp": "2024-10-27T07:15:21.175585"
+}

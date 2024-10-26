@@ -1,0 +1,33 @@
+{
+    "link": "http://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2650930007&idx=1&sn=995919237664a0b05d9c5337c48af055&chksm=84e43f29b393b63f9d25ff12cc0d91a3a8dab262c48f3b7fe8e0810c6a90087df9273885550c#rd",
+    "title": "非Transformer架构站起来了！首个纯无注意力大模型，超越开源巨头Llama 3.1",
+    "summary": "阿布扎比技术创新研究所（TII）发布开源大模型Falcon Mamba 7B，采用Mamba架构，能在单个24GB A10 GPU上运行，无需增加内存即可处理任意长度序列。该模型在某些基准测试中超越了同级别Transformer模型，如Meta的Llama 3 8B和Mistral 7B。Falcon Mamba 7B基于Mamba状态空间语言模型（SSLM）架构，提供了一种处理长文本序列的替代方案，且训练数据高达5500GT。模型通过多阶段训练策略和特定数据集进行优化，旨在应用于机器翻译、文本摘要等任务。Falcon Mamba 7B在处理序列长度和生成吞吐量方面优于Transformer模型，但在某些基准测试中仍有待提高。",
+    "user_summary": "阿布扎比技术创新研究所（TII）发布开源大模型Falcon Mamba 7B，采用Mamba架构，能在单个24GB A10 GPU上运行，无需增加内存即可处理任意长度序列。该模型在某些基准测试中超越了同级别Transformer模型，如Meta的Llama 3 8B和Mistral 7B。Falcon Mamba 7B基于Mamba状态空间语言模型（SSLM）架构，提供了一种处理长文本序列的替代方案，且训练数据高达5500GT。模型通过多阶段训练策略和特定数据集进行优化，旨在应用于机器翻译、文本摘要等任务。Falcon Mamba 7B在处理序列长度和生成吞吐量方面优于Transformer模型，但在某些基准测试中仍有待提高。",
+    "keywords": [
+        "阿布扎比",
+        "TII",
+        "Falcon",
+        "Mamba",
+        "7B",
+        "Mamba",
+        "架构",
+        "A10",
+        "GPU",
+        "Llama",
+        "3",
+        "8B",
+        "Mistral",
+        "7B",
+        "SSLM",
+        "语言模型",
+        "机器翻译",
+        "文本摘要",
+        "序列长度",
+        "生成吞吐量",
+        "Transformer",
+        "基准测试",
+        "训练数据",
+        "优化"
+    ],
+    "timestamp": "2024-10-27T07:19:36.725352"
+}

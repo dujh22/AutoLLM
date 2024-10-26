@@ -1,0 +1,30 @@
+{
+    "link": "http://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2650928631&idx=4&sn=86f27051de6a2f6ac708130a4ed1ad16&chksm=84e43189b393b89fc8273ac7d5a9dcf564643ba56cf6db181c868833a013a88e50404a1bf192#rd",
+    "title": "还没排上SearchGPT？比Perplexity更好用的国产开源平替了解一下？",
+    "summary": "这篇文章介绍了上海人工智能实验室推出的一款名为MindSearch的AI搜索引擎，该系统采用多智能体框架，模仿人类的思维过程来处理问题。MindSearch能够通过智能体分工合作，理解用户需求并整合互联网信息，提供深度、广度和准确度较高的答案。与OpenAI的SearchGPT和Perplexity.ai相比，MindSearch在某些方面表现出优越性。MindSearch的核心是WebPlanner和WebSearcher两个智能体，前者通过图结构进行规划，后者进行分层检索网页。此外，MindSearch还解决了多智能体之间的上下文管理和信息共享问题。目前，MindSearch的源代码已经开源，用户可以在本地部署模型。",
+    "user_summary": "这篇文章介绍了上海人工智能实验室推出的一款名为MindSearch的AI搜索引擎，该系统采用多智能体框架，模仿人类的思维过程来处理问题。MindSearch能够通过智能体分工合作，理解用户需求并整合互联网信息，提供深度、广度和准确度较高的答案。与OpenAI的SearchGPT和Perplexity.ai相比，MindSearch在某些方面表现出优越性。MindSearch的核心是WebPlanner和WebSearcher两个智能体，前者通过图结构进行规划，后者进行分层检索网页。此外，MindSearch还解决了多智能体之间的上下文管理和信息共享问题。目前，MindSearch的源代码已经开源，用户可以在本地部署模型。",
+    "keywords": [
+        "上海人工智能实验室",
+        "MindSearch",
+        "AI搜索引擎",
+        "多智能体框架",
+        "人类思维过程",
+        "用户需求",
+        "整合互联网信息",
+        "深度",
+        "广度",
+        "准确度",
+        "OpenAI",
+        "SearchGPT",
+        "Perplexity.ai",
+        "WebPlanner",
+        "WebSearcher",
+        "智能体",
+        "上下文管理",
+        "信息共享",
+        "源代码",
+        "开源",
+        "本地部署"
+    ],
+    "timestamp": "2024-10-27T07:22:11.816534"
+}

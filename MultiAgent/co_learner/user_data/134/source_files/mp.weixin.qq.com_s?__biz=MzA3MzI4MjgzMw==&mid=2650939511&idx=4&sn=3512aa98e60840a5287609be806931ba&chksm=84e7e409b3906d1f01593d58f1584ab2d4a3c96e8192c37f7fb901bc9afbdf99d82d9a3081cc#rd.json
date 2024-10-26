@@ -1,0 +1,23 @@
+{
+    "link": "http://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2650939511&idx=4&sn=3512aa98e60840a5287609be806931ba&chksm=84e7e409b3906d1f01593d58f1584ab2d4a3c96e8192c37f7fb901bc9afbdf99d82d9a3081cc#rd",
+    "title": "Jurgen、曼宁等大佬新作：MoE重塑6年前的Universal Transformer，高效升级",
+    "summary": "谷歌在2017年提出了Transformer，2019年推出了Universal Transformer（UT），它通过跨层共享参数实现深度循环，提升了组合泛化能力。然而，UT的计算效率低于标准Transformer，不适用于大规模任务。近期，包括LSTM之父Jürgen Schmidhuber和斯坦福大学教授Christopher Manning在内的一组研究者提出了Mixture-of-Experts Universal Transformers（MoEUT），这是一种混合专家架构，通过layer grouping和peri-layernorm方案，解决了UT的基础计算参数比问题，实现了计算和内存效率更高的UT模型。MoEUT在多个语言建模和代码生成任务上展现出优越性能，同时在下游任务中也有良好表现，验证了循环对于模型性能的重要性。",
+    "user_summary": "谷歌在2017年提出了Transformer，2019年推出了Universal Transformer（UT），它通过跨层共享参数实现深度循环，提升了组合泛化能力。然而，UT的计算效率低于标准Transformer，不适用于大规模任务。近期，包括LSTM之父Jürgen Schmidhuber和斯坦福大学教授Christopher Manning在内的一组研究者提出了Mixture-of-Experts Universal Transformers（MoEUT），这是一种混合专家架构，通过layer grouping和peri-layernorm方案，解决了UT的基础计算参数比问题，实现了计算和内存效率更高的UT模型。MoEUT在多个语言建模和代码生成任务上展现出优越性能，同时在下游任务中也有良好表现，验证了循环对于模型性能的重要性。",
+    "keywords": [
+        "Transformer",
+        "Universal",
+        "Transformer",
+        "MoEUT",
+        "LSTM",
+        "Jürgen",
+        "Schmidhuber",
+        "Christopher",
+        "Manning",
+        "计算效率",
+        "内存效率",
+        "语言建模",
+        "代码生成",
+        "下游任务"
+    ],
+    "timestamp": "2024-10-27T07:07:26.299928"
+}

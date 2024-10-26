@@ -1,0 +1,9 @@
+openai
+python-dotenv
+fastapi
+uvicorn
+pandas
+requests
+arxiv
+beautifulsoup4
+tqdm

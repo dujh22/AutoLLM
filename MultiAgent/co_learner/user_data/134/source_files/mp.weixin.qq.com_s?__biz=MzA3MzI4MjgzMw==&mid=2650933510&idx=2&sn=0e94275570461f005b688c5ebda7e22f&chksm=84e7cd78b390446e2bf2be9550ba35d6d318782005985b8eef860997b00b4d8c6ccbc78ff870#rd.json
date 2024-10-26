@@ -1,0 +1,32 @@
+{
+    "link": "http://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2650933510&idx=2&sn=0e94275570461f005b688c5ebda7e22f&chksm=84e7cd78b390446e2bf2be9550ba35d6d318782005985b8eef860997b00b4d8c6ccbc78ff870#rd",
+    "title": "这就翻车了？Reflection 70B遭质疑基模为Llama 3，作者：重新训练",
+    "summary": "开源大模型新秀Reflection 70B被宣称在多项基准测试中超越GPT-4o和Llama 3.1，被誉为新王。该模型由HyperWrite和Glaive AI的开发者在3周内完成。然而，AI模型独立分析机构Artificial Analysis的评估显示，Reflection 70B在MMLU和科学推理基准测试上的表现并不如Llama 3.1 70B。Reddit上的帖子和代码比较揭示，Reflection 70B可能是基于Llama 3而非Llama 3.1进行的调整。开发者Matt Shumer回应称，Hugging Face上的权重有问题，并已重新训练模型以解决这些问题。对于围绕模型基础和性能的质疑，Shumer也做出了解释。",
+    "user_summary": "开源大模型新秀Reflection 70B被宣称在多项基准测试中超越GPT-4o和Llama 3.1，被誉为新王。该模型由HyperWrite和Glaive AI的开发者在3周内完成。然而，AI模型独立分析机构Artificial Analysis的评估显示，Reflection 70B在MMLU和科学推理基准测试上的表现并不如Llama 3.1 70B。Reddit上的帖子和代码比较揭示，Reflection 70B可能是基于Llama 3而非Llama 3.1进行的调整。开发者Matt Shumer回应称，Hugging Face上的权重有问题，并已重新训练模型以解决这些问题。对于围绕模型基础和性能的质疑，Shumer也做出了解释。",
+    "keywords": [
+        "",
+        "Reflection",
+        "70B",
+        "GPT-4",
+        "Llama",
+        "3.1",
+        "HyperWrite",
+        "Glaive",
+        "AI",
+        "Artificial",
+        "Analysis",
+        "MMLU",
+        "科学推理",
+        "基准测试",
+        "Reddit",
+        "Llama",
+        "3",
+        "权重",
+        "问题",
+        "解决",
+        "性能",
+        "质疑",
+        "回应"
+    ],
+    "timestamp": "2024-10-27T07:14:17.843667"
+}

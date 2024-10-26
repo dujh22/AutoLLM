@@ -1,0 +1,30 @@
+{
+    "link": "http://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2650930730&idx=2&sn=00d2cddcbf2466e1cabb0fa49809efb2&chksm=84e43a54b393b3426ac9b2fd5da499cfd1f00a75dab1d8b6d0add2d35f73e461fa470f2b1bbf#rd",
+    "title": "DeepSeek开源数学大模型，高中、大学定理证明新SOTA",
+    "summary": "DeepSeek-Prover-V1.5，一个70亿参数的开源模型，通过结合强化学习和蒙特卡洛树搜索，提升了形式化定理证明的效率和准确性。该模型在 Lean 4 的形式定理证明中超越了所有开源模型。通过集成强化学习和树搜索技术，它能在没有中间策略状态信息的情况下生成证明，减少错误积累。模型的训练包括大规模数学预训练、监督微调、强化学习和蒙特卡洛树搜索方法。实验结果显示，DeepSeek-Prover-V1.5 在高中水平的 miniF2F 数据集和本科水平的 ProofNet 数据集上取得了新的 state-of-the-art 成绩。",
+    "user_summary": "DeepSeek-Prover-V1.5，一个70亿参数的开源模型，通过结合强化学习和蒙特卡洛树搜索，提升了形式化定理证明的效率和准确性。该模型在 Lean 4 的形式定理证明中超越了所有开源模型。通过集成强化学习和树搜索技术，它能在没有中间策略状态信息的情况下生成证明，减少错误积累。模型的训练包括大规模数学预训练、监督微调、强化学习和蒙特卡洛树搜索方法。实验结果显示，DeepSeek-Prover-V1.5 在高中水平的 miniF2F 数据集和本科水平的 ProofNet 数据集上取得了新的 state-of-the-art 成绩。",
+    "keywords": [
+        "DeepSeek-Prover-V1.5",
+        "强化学习",
+        "蒙特卡洛树搜索",
+        "形式化定理证明",
+        "效率",
+        "准确性",
+        "Lean",
+        "4",
+        "开源模型",
+        "证明生成",
+        "错误积累",
+        "数学预训练",
+        "监督微调",
+        "强化学习",
+        "蒙特卡洛树搜索",
+        "miniF2F",
+        "数据集",
+        "ProofNet",
+        "数据集",
+        "state-of-the-art",
+        "成绩"
+    ],
+    "timestamp": "2024-10-27T07:18:46.532499"
+}

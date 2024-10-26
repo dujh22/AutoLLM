@@ -1,0 +1,32 @@
+{
+    "link": "http://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2650938690&idx=3&sn=52e98eaf0211aa5bffd68a5b516c1fb2&chksm=84e7d93cb390502a0a1c04336fbf2f8250b0c3094ac30afe1a5b9d5eba4e5856aafd2534de2f#rd",
+    "title": "北大林宙辰团队全新混合序列建模架构MixCon：性能远超Mamba",
+    "summary": "北京大学的研究人员提出了一种名为MixCon的新混合序列建模架构，旨在解决现有模型在捕捉长程依赖和高效建模序列方面的挑战。MixCon结合了线性注意力Transformer、线性RNN和MoE模型的优点，通过创新的Conba模型架构和自适应控制机制，提高了处理长序列的效率和适应性。实验结果显示，MixCon在性能和吞吐量上优于同类模型，如Mixtral、Mamba和Jamba，并在多任务基准测试中表现出色。该论文已发表在European Conference on Artificial Intelligence (ECAI) 2024上。",
+    "user_summary": "北京大学的研究人员提出了一种名为MixCon的新混合序列建模架构，旨在解决现有模型在捕捉长程依赖和高效建模序列方面的挑战。MixCon结合了线性注意力Transformer、线性RNN和MoE模型的优点，通过创新的Conba模型架构和自适应控制机制，提高了处理长序列的效率和适应性。实验结果显示，MixCon在性能和吞吐量上优于同类模型，如Mixtral、Mamba和Jamba，并在多任务基准测试中表现出色。该论文已发表在European Conference on Artificial Intelligence (ECAI) 2024上。",
+    "keywords": [
+        "北京大学",
+        "MixCon",
+        "混合序列建模",
+        "架构",
+        "长程依赖",
+        "高效建模",
+        "Transformer",
+        "RNN",
+        "MoE",
+        "Conba",
+        "模型架构",
+        "自适应控制",
+        "机制",
+        "性能",
+        "吞吐量",
+        "Mixtral",
+        "Mamba",
+        "Jamba",
+        "多任务基准测试",
+        "ECAI",
+        "2024",
+        "论文",
+        "发表"
+    ],
+    "timestamp": "2024-10-27T07:08:06.758084"
+}
