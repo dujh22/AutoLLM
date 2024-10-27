@@ -1,16 +1,17 @@
-import React, { useState } from 'react';
+import React, {useEffect, useState} from 'react';
 import { App, Card, Empty, Input, Tabs } from 'antd';
 import styles from './styles.module.scss';
 import { SearchOutlined } from '@ant-design/icons';
 import { useNavigate } from 'react-router-dom';
 import SimpleData from '@/pages/home/components/simple-data';
-import { useMount } from 'ahooks';
 import request from '@/utils/request.ts';
 import { REQUEST_URLS } from '@/config/requet-urls.ts';
-import { ISimpleData } from '@/pages/home/types.ts';
+import { ISimpleData, IUpdateData } from '@/pages/home/types.ts';
 import ChartData from '@/pages/home/components/chart-data';
 import { ROUTE_URLS } from '@/config/route-urls.ts';
 import { useAiStore } from '@/store';
+import {formatBriefContent, getNewLearn, getUpdateInfo} from '@/utils/common.ts';
+import {IBriefRes} from "@/types";
 
 const HomePage: React.FC = () => {
   const nav = useNavigate();
@@ -20,36 +21,35 @@ const HomePage: React.FC = () => {
 
   const phone = useAiStore(s => s.phone);
 
+  const [updateData] = useState<IUpdateData>(getUpdateInfo());
+  const [newLearn] = useState<string>(getNewLearn());
+
   const goToChatPage = () => {
     const url = input ? `${ROUTE_URLS.chat}?q=${encodeURIComponent(input)}` : `${ROUTE_URLS.chat}`;
-    console.log(url);
     nav(url);
   };
 
-  useMount(() => {
+  useEffect(() => {
     request
       .get(REQUEST_URLS.getSummary, {
         params: {
           phone_number: phone,
         },
       })
+      .then(res => {
+        const resData: IBriefRes = res.data;
+        const briefings = Array.isArray(resData.briefings) ? resData.briefings : [resData.briefings];
+        const simpleData = briefings.map(v => ({
+          dateTime: new Date(v.generated_time).getTime(),
+          content: formatBriefContent(v.content, v.links)
+        }))
+        setSimpleDataList(simpleData)
+
+      })
       .catch(e => {
         message.error(typeof e === 'string' ? e || '网络错误' : e.toString());
-
-        setSimpleDataList([
-          {
-            dateTime: Date.now(),
-            content:
-              '<a href="https://wwww.baidu.com">大师课冷冻机房哈拉道口就发点沙拉科技</a><br /><a href="https://wwww.baidu.com">大师课冷冻机房哈拉道口就发点沙拉科技</a>',
-          },
-          {
-            dateTime: Date.now() - 86400000,
-            content:
-              '<a href="https://wwww.baidu.com">大师课冷冻机房哈拉道口就发点沙拉科技</a><br /><a href="https://wwww.baidu.com">大师课冷冻机房哈拉道口就发点沙拉科技</a>',
-          },
-        ]);
       });
-  });
+  }, [message, phone]);
 
   return (
     <div className={styles.container}>
@@ -70,13 +70,13 @@ const HomePage: React.FC = () => {
               onChange={e => setInput(e.target.value)}
               onPressEnter={() => goToChatPage()}
             />
-            <div className={styles.new}>今日新学知识点：A方案、B方案、C方案</div>
+            <div className={styles.new}>今日新学知识点：{newLearn}</div>
           </div>
           <div className={styles.data}>
             <div className={styles.dataItem}>
-              今日新知识：<span className={styles.spText}> +54</span> 篇
+              今日新知识：<span className={styles.spText}> +{updateData.newNum}</span> 篇
             </div>
-            <div className={styles.dataItem}>知识汇总：2000 篇</div>
+            <div className={styles.dataItem}>知识汇总：{updateData.allNum} 篇</div>
           </div>
         </div>
       </Card>

@@ -18,17 +18,20 @@ const SimpleData: React.FC<IDataProps> = ({ dataList }) => {
 
   const items = dataList.map(item => {
     return {
-      label: dayjs(item.dateTime ? new Date(item.dateTime) : new Date()).format('YYYY-MM-DD'),
+      label:
+      <div className={styles.timelineLabel}>
+        <span>{dayjs(item.dateTime ? new Date(item.dateTime) : new Date()).format('YYYY-MM-DD')}</span>
+         <SaveOutlined  onClick={() => onSave()} />
+      </div>,
+
       children: (
         <div className={styles.item}>
-          <div dangerouslySetInnerHTML={{ __html: item.content }}></div>
-          <SaveOutlined style={{ marginTop: 6 }} onClick={() => onSave()} />
+          <div style={{ whiteSpace: 'pre-line' }}  dangerouslySetInnerHTML={{ __html: item.content }}></div>
+
         </div>
       ),
     };
   });
-
-  console.log(items);
 
   return <Timeline mode="left" items={items} className={styles.timeline} />;
 };

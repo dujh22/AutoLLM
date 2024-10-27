@@ -1,17 +1,17 @@
 .timeline {
   :global {
     .ant-timeline-item-label {
-      width: 80px !important;
+      width: 100px !important;
     }
 
     .ant-timeline-item-content {
-      inset-inline-start: 84px !important;
-      width: calc(100% - 92px) !important;
+      inset-inline-start: 104px !important;
+      width: calc(100% - 130px) !important;
     }
 
     .ant-timeline-item-tail,
     .ant-timeline-item-head {
-      inset-inline-start: 94px !important;
+      inset-inline-start:114px !important;
     }
   }
 
@@ -19,5 +19,12 @@
     display: flex;
     gap: 8px;
     align-items: flex-start;
+  }
+
+  .timelineLabel {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
   }
 }

@@ -24,25 +24,32 @@
     align-items: center;
     justify-content: space-between;
     gap: 24px;
+    margin-bottom: 40px;
 
     .introItem {
       flex: 1;
 
       &:nth-child(1) {
         .image {
-          background: darkolivegreen;
+          background: url(../../../assets/images/1.png) no-repeat center center;
+          background-size: cover;
+          box-shadow: 0 0  8px #faad14;
         }
       }
 
       &:nth-child(2) {
         .image {
-          background: #090b21;
+          background: url(../../../assets/images/2.jpeg) no-repeat center center;
+          background-size: cover;
+          box-shadow: 0 0 8px #faad14;
         }
       }
 
       &:nth-child(3) {
         .image {
-          background: #c48462;
+          background: url(../../../assets/images/3.png) no-repeat center center;
+          background-size: cover;
+          box-shadow: 0 0 8px #faad14;
         }
       }
 

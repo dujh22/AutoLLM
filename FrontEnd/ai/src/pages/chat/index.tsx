@@ -16,7 +16,7 @@ const ChatPage: React.FC = () => {
   const [loading, setLoading] = useState(false);
   const [input, setInput] = useState('');
 
-  const [isModalVisible, setIsModalVisible] = useState(false);
+  const [videoPath, setVideoPath] = useState('');
   const phone = useAiStore(s => s.phone);
   const chatList = useAiStore(state => state.chatList);
   const setChatList = useAiStore(state => state.setChatList);
@@ -60,6 +60,8 @@ const ChatPage: React.FC = () => {
           id: Date.now() + 'answer',
           content: v?.data?.message || '生成失败，请稍后再试',
           type: 'answer',
+          videoPath: v?.data?.video_path,
+          linkPath: v?.data?.link_path,
         });
         onScroll();
       })
@@ -85,8 +87,8 @@ const ChatPage: React.FC = () => {
             <div className={styles.chatContent}>
               {item.type === 'answer' ? <Avatar style={{ backgroundColor: '#87d068', flex: '0 0 auto' }}>A</Avatar> : null}
               <div className={styles.content} dangerouslySetInnerHTML={{ __html: item.content }} />
-              {item.type === 'answer' ? (
-                <PlayCircleOutlined style={{ fontSize: 18, cursor: 'pointer' }} onClick={() => setIsModalVisible(true)} />
+              {item.type === 'answer' && item.videoPath ? (
+                <PlayCircleOutlined style={{ fontSize: 18, cursor: 'pointer' }} onClick={() => setVideoPath(item.linkPath || '')} />
               ) : null}
               {item.type === 'question' ? (
                 <Avatar style={{ backgroundColor: '#fde3cf', color: '#f56a00', flex: '0 0 auto' }}>Q</Avatar>
@@ -98,7 +100,8 @@ const ChatPage: React.FC = () => {
           <div className={styles.chatContent}>
             <Avatar style={{ backgroundColor: '#87d068', flex: '0 0 auto' }}>A</Avatar>
             <div className={styles.content}>
-              <Spin /> Let me think...
+              <Spin />
+              <span style={{ marginTop: -2, marginLeft: 8 }}>Let me think...</span>
             </div>
           </div>
         ) : null}
@@ -118,9 +121,9 @@ const ChatPage: React.FC = () => {
         onChange={e => setInput(e.target.value)}
         onPressEnter={onConfirm}
       />
-      <Modal title="Video Player" visible={isModalVisible} onOk={() => setIsModalVisible(false)} onCancel={() => setIsModalVisible(false)}>
+      <Modal title="Video Player" open={!!videoPath} onOk={() => setVideoPath('')} onCancel={() => setVideoPath('')}>
         <video width="100%" height={360} controls>
-          <source src="http://localhost:8341/1.mp4" type="video/mp4" />
+          <source src={videoPath} type="video/mp4" />
         </video>
       </Modal>
     </div>
