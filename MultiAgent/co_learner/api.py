@@ -42,11 +42,11 @@ class UserChatRequest(BaseModel):
 def chat(request: UserChatRequest):
     try:
         # Here we call the chat method from your UserManagement class
-        response = user_management.interact(request.phone_number, request.message)
-        video = text2video(response)
+        responseWithLink, responseWithoutLink = user_management.interact(request.phone_number, request.message)
+        video = text2video(responseWithoutLink)
         video_path = video["video_path"]
         link_path = video["link_path"]
-        return {"status": "success", "message": response, "video_path": video_path, "link_path": link_path}
+        return {"status": "success", "message": responseWithLink, "video_path": video_path, "link_path": link_path}
     except Exception as e:
         raise HTTPException(status_code=400, detail=str(e))
 
@@ -54,8 +54,8 @@ def chat(request: UserChatRequest):
 def chat2(request: UserChatRequest):
     try:
         # Here we call the chat method from your UserManagement class
-        response = user_management.interact(request.phone_number, request.message)
-        return {"status": "success", "message": response}
+        responseWithLink, responseWithoutLink = user_management.interact(request.phone_number, request.message)
+        return {"status": "success", "message": responseWithLink}
     except Exception as e:
         raise HTTPException(status_code=400, detail=str(e))
 
@@ -63,7 +63,7 @@ def chat2(request: UserChatRequest):
 def get_user(phone_number: str):
     try:
         # Here we call the get_user method from your UserManagement class
-        if user_management.user_exists(phone_number):
+        if user_management.user_exists(phone_number) == True:
             return {
                 "status": "success",
                 "phone_number": phone_number,
@@ -81,7 +81,7 @@ def get_user(phone_number: str):
 def get_briefings(phone_number: str):
     try:
         # Here we call the get_user method from your UserManagement class
-        if user_management.user_exists(phone_number):
+        if user_management.user_exists(phone_number) == True:
             return {
                 "status": "success",
                 "phone_number": phone_number,

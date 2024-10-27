@@ -7,17 +7,17 @@ from llm_chat import llm_chat_with_his
 class UserManager:
     def __init__(self):
         self.project_dir = os.path.join(os.getcwd(), "user_data")
-        self.user_id = []
+        self.user_id_list = []
         if not os.path.exists(self.project_dir):
             os.makedirs(self.project_dir)
         else:
             # 获得用户id，即project_dir文件夹下存在的文件夹名
-            self.user_id = os.listdir(self.project_dir)
-            print(f"Existing users: {self.user_id}")
+            self.user_id_list = os.listdir(self.project_dir)
+            print(f"Existing users: {self.user_id_list}")
         
     # 判断用户是否存在
     def user_exists(self, user_id):
-        if user_id in self.user_id:
+        if user_id in self.user_id_list:
             return True
         else:
             return False
@@ -109,6 +109,8 @@ class UserManager:
     # 和用户交互
     def interact(self, user_id, user_message):
         file_path = os.path.join(self.project_dir, user_id, "qa_interactions.json")
+        return_message_with_link = ""
+        return_message_without_link = ""
         with open(file_path, "r") as file:
             data = json.load(file)
             data["messages"].append({"role": "user", "content": user_message})
@@ -116,13 +118,18 @@ class UserManager:
             if "http" in user_message:
                 print("2. 识别到用户输入为link，开始执行简报模式")
                 jianbao = self.create_briefing(user_id, user_message)
+                return_message_with_link = jianbao
+                return_message_without_link = jianbao["content"]
+                data["messages"].append({"role": "assistant", "content": return_message_with_link})
             else:
                 print("2. 识别到用户输入为prompt，开始执行对话模式")
                 llm_response = llm_chat_with_his(data["messages"])
-            data["messages"].append({"role": "assistant", "content": llm_response})
+                data["messages"].append({"role": "assistant", "content": llm_response})
+                return_message_without_link = llm_response
+                return_message_with_link = llm_response
         with open(file_path, "w") as file:
             json.dump(data, file)
-        return llm_response
+        return return_message_with_link, return_message_without_link
 
     # 周期性创建简报 &  临时性创建简报
     def create_briefing(self, user_id, link):
@@ -133,16 +140,23 @@ class UserManager:
     
     # 获得简报
     def get_briefing(self, user_id):
-        file_path = os.path.join(self.project_dir, user_id, "briefings")
-        with open(file_path, "r") as file:
-            files = json.load(file)
-            return files["content"]
+        directory_path = os.path.join(self.project_dir, user_id, "briefings")
+        briefings = ""
+        for file_name in os.listdir(directory_path):
+            file_path = os.path.join(directory_path, file_name)
+            if os.path.isfile(file_path):
+                with open(file_path, 'r') as file:
+                    briefing_content = json.load(file)
+                    briefings = briefing_content
+                    break
+        return briefings
 
 def main():
     # 示例使用
     user_manager = UserManager()
 
-    user_manager.interact("134", "http://arxiv.org/abs/2410.18923v1")
+    # user_manager.interact("134", "http://arxiv.org/abs/2410.18923v1")
+    user_manager.user_exists("134")
 
     # # 创建用户
     # user_id = "2"

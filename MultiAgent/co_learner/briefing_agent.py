@@ -5,8 +5,8 @@ from datetime import datetime
 from llm_chat import llm_chat_with_prompt
 
 class BriefingAgent:
-    def __init__(self, save_directory):
-        self.save_directory = save_directory
+    def __init__(self, user_id):
+        self.save_directory = os.path.join(os.getcwd(), "user_data", user_id, "briefings")
         self.briefing_list = []
         self.today_briefing = None
         # 判断目录是否存在，如果不存在则创建
@@ -20,6 +20,8 @@ class BriefingAgent:
                     with open(file_path, "r", encoding="utf-8") as f:
                         briefing = json.load(f)
                         self.briefing_list.append(briefing)
+                        if briefing["generated_time"].startswith(datetime.today().strftime("%Y-%m-%d")):
+                            self.today_briefing = briefing
             
     def generate_briefing(self, link_content_list, mode = "临时模式"):
         # 生成时间戳
@@ -54,7 +56,7 @@ class BriefingAgent:
             briefing["file_path"] = file_path
             with open(file_path, "w", encoding="utf-8") as f:
                 json.dump(briefing, f, ensure_ascii=False, indent=4)
-            self.today_briefing = briefing_content
+            self.today_briefing = briefing
             print("简报内容如下:")
             print(briefing)
             return self.today_briefing

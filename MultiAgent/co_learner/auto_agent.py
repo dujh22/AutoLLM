@@ -6,7 +6,7 @@ from info_filter_agent import InfoFilterAgent
 from briefing_agent import BriefingAgent
 import os
 from llm_chat import llm_chat_with_prompt
-
+import time
 
 class Agent3_InfoFilterAgent:
     def filter_links(self, link_list, history_briefing):
@@ -23,7 +23,7 @@ class AutoAgent:
         self.agent1 = SpiderGenAgent()
         self.agent2 = InfoGetAgent(userid)
         self.userpath = self.agent2.user_folder
-        self.briefagent = BriefingAgent(self.userpath.replace("source_files", "briefings"))
+        self.briefagent = BriefingAgent(userid)
 
     def execute(self, link):
         if self.briefagent.today_briefing is None:
@@ -52,13 +52,21 @@ class AutoAgent:
             today_briefing = self.briefagent.today_briefing
             link_name = self.agent2.get_file_name(link)
             contents = ""
+            temp_link = ""
             path = os.path.join(self.userpath, f"{link_name}.json")
             with open(path, "r") as f:
                 data = json.load(f)
-                contents = data["Summary"] + "\n" + data["URL"]
-            briefing_content = llm_chat_with_prompt(prompt, today_briefing + contents)
+                contents = data["summary"]
+                temp_link = data["link"]
+            briefing_content = llm_chat_with_prompt(prompt, today_briefing["content"] + contents)
+            new_briefing = {
+                "generated_time": time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()),
+                "content": briefing_content,
+                "links": today_briefing["links"] + [temp_link],
+                "file_path": ""
+            }
             print("3.5 生成临时简报")
             print("简报内容如下:")
-            print(briefing_content)
+            print(new_briefing)
             print("3.6 生成可供分享的语音和数字人播报视频")
-            return briefing_content
+            return new_briefing
