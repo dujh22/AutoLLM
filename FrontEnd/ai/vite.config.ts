@@ -11,7 +11,10 @@ export default defineConfig({
     },
   },
   server: {
-    host: '0.0.0.0',
+watch: {
+      ignored: ['**/node_modules/**', '**/dist/**'],
+    },
+      	  host: '0.0.0.0',
     proxy: {
       '/sirius': {
         target: 'http://localhost:9001',

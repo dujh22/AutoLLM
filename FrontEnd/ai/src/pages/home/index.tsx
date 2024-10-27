@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react';
+import React, { useEffect, useState } from 'react';
 import { App, Card, Empty, Input, Tabs } from 'antd';
 import styles from './styles.module.scss';
 import { SearchOutlined } from '@ant-design/icons';
@@ -10,8 +10,8 @@ import { ISimpleData, IUpdateData } from '@/pages/home/types.ts';
 import ChartData from '@/pages/home/components/chart-data';
 import { ROUTE_URLS } from '@/config/route-urls.ts';
 import { useAiStore } from '@/store';
-import {formatBriefContent, getNewLearn, getUpdateInfo} from '@/utils/common.ts';
-import {IBriefRes} from "@/types";
+import { formatBriefContent, getNewLearn, getUpdateInfo } from '@/utils/common.ts';
+import { IBriefRes } from '@/types';
 
 const HomePage: React.FC = () => {
   const nav = useNavigate();
@@ -30,25 +30,26 @@ const HomePage: React.FC = () => {
   };
 
   useEffect(() => {
-    request
-      .get(REQUEST_URLS.getSummary, {
-        params: {
-          phone_number: phone,
-        },
-      })
-      .then(res => {
-        const resData: IBriefRes = res.data;
-        const briefings = Array.isArray(resData.briefings) ? resData.briefings : [resData.briefings];
-        const simpleData = briefings.map(v => ({
-          dateTime: new Date(v.generated_time).getTime(),
-          content: formatBriefContent(v.content, v.links)
-        }))
-        setSimpleDataList(simpleData)
-
-      })
-      .catch(e => {
-        message.error(typeof e === 'string' ? e || '网络错误' : e.toString());
-      });
+    if (phone) {
+      request
+        .get(REQUEST_URLS.getSummary, {
+          params: {
+            phone_number: phone,
+          },
+        })
+        .then(res => {
+          const resData: IBriefRes = res.data;
+          const briefings = Array.isArray(resData.briefings) ? resData.briefings : [resData.briefings];
+          const simpleData = briefings.map(v => ({
+            dateTime: new Date(v.generated_time).getTime(),
+            content: formatBriefContent(v.content, v.links),
+          }));
+          setSimpleDataList(simpleData);
+        })
+        .catch(e => {
+          message.error(typeof e === 'string' ? e || '网络错误' : e.toString());
+        });
+    }
   }, [message, phone]);
 
   return (

@@ -192,6 +192,7 @@ const SetupModal: React.FC<IProps> = ({ visible, setVisible, type }) => {
       width={800}
       open={visible}
       title="请设置基本信息"
+      maskClosable={false}
       onClose={() => setVisible(false)}
       closeIcon={type === 'new' ? null : undefined}
       footer={null}

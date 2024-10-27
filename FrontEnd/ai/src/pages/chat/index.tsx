@@ -8,6 +8,7 @@ import request from '@/utils/request.ts';
 import { REQUEST_URLS } from '@/config/requet-urls.ts';
 
 const ChatPage: React.FC = () => {
+  const videoRef = useRef<HTMLVideoElement>(null);
   const { message } = App.useApp();
   const [searchParams] = useSearchParams();
   const query = searchParams.get('q');
@@ -79,6 +80,19 @@ const ChatPage: React.FC = () => {
     }
   }, [query]);
 
+  useEffect(() => {
+    setTimeout(() => {
+      if (videoRef.current) {
+        if (!videoPath) {
+          videoRef.current.pause();
+          videoRef.current.currentTime = 0;
+        } else {
+          videoRef.current.play();
+        }
+      }
+    }, 500);
+  }, [videoPath]);
+
   return (
     <div className={styles.container}>
       <div className={styles.chat} ref={ref}>
@@ -121,8 +135,8 @@ const ChatPage: React.FC = () => {
         onChange={e => setInput(e.target.value)}
         onPressEnter={onConfirm}
       />
-      <Modal title="Video Player" open={!!videoPath} onOk={() => setVideoPath('')} onCancel={() => setVideoPath('')}>
-        <video width="100%" height={360} controls>
+      <Modal title="Video Player" open={!!videoPath} onOk={() => setVideoPath('')} onCancel={() => setVideoPath('')} footer={null}>
+        <video key={videoPath} ref={videoRef} width="100%" height={360} controls>
           <source src={videoPath} type="video/mp4" />
         </video>
       </Modal>
