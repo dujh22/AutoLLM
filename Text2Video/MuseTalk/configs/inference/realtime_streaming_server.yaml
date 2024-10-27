@@ -1,0 +1,8 @@
+avator_2:
+ preparation: False
+ bbox_shift: 5
+ video_path: "data/video/sun.mp4"
+ audio_dir: "data/audio_streaming_server"
+ 
+  
+
